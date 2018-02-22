@@ -1,6 +1,11 @@
 # Compilers Quiz
 
 1) Qual a diferença entre uma linguagem compilada e uma linguagem interpretada? Cite exemplos de linguagens.
+Uma linguagem compilada é executada diretamente pelo sistema operacional/processador, depois do código fonte ser transformado em código de máquina pelo compilador. Uma linguagem interpretada depende de um intermediário (virtual machine), que é o responsável por interpretar o código fonte e compilá-lo, em tempo de execução, tranformando-o em código de máquina para que o processador consiga executar o programa.
+
+Exermplos
+Linguagens interpretadas: Java, C# e Javascript.
+Linguagens compiladas: Cobol, Fortran e Pascal.
 
 2) Quais são os prós e contras entre linguagens compiladas e interpretadas?
 
