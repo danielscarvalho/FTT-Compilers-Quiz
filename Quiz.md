@@ -1,11 +1,12 @@
 # Compilers Quiz
+## CEFSA - FTT - EC
 
 1) Qual a diferença entre uma linguagem compilada e uma linguagem interpretada? Cite exemplos de linguagens.
-Uma linguagem compilada é executada diretamente pelo sistema operacional/processador, depois do código fonte ser transformado em código de máquina pelo compilador. Uma linguagem interpretada depende de um intermediário (virtual machine), que é o responsável por interpretar o código fonte e compilá-lo, em tempo de execução, tranformando-o em código de máquina para que o processador consiga executar o programa.
+__R:Uma linguagem compilada é executada diretamente pelo sistema operacional/processador, depois do código fonte ser transformado em código de máquina pelo compilador. Uma linguagem interpretada depende de um intermediário (virtual machine), que é o responsável por interpretar o código fonte e compilá-lo, em tempo de execução, tranformando-o em código de máquina para que o processador consiga executar o programa.__
 
-Exermplos
-Linguagens interpretadas: Java, C# e Javascript.
-Linguagens compiladas: Cobol, Fortran e Pascal.
+Exermplos:
+Linguagens interpretadas: Javascript, Lua, Python
+Linguagens compiladas: Cobol, Fortran, Java, C# e Pascal.
 
 2) Quais são os prós e contras entre linguagens compiladas e interpretadas?
 
@@ -45,24 +46,24 @@ __R: Porque a linguagem de alto nível é mais intuitiva ao usuário, sendo assi
 19) Os seguintes termos se aplicam a quais linguagens de programação?
 
 
- A | Imperativo
- B | Declarativo
- C | Von Newman
- D | OO
- E | Funcional
- F | 3G
- G | 4G
+| A | Imperativo |
+| B | Declarativo |
+| C | Von Newman |
+| D | OO |
+| E | Funcional |
+| F | 3G |
+| G | 4G |
  
-  1 | C
-  2 | C++
-  3 | COBOL
-  4 | Fortran
-  5 | Java
-  6 | Lisp
-  7 | ML ('Meta Language')
-  8 | Perl
-  9 | Python
- 10 | VB
+ | 1 | C |
+ | 2 | C++ |
+ | 3 | COBOL |
+ | 4 | Fortran |
+ | 5 | Java |
+ | 6 | Lisp |
+ | 7 | ML ('Meta Language') |
+ | 8 | Perl |
+ | 9 | Python |
+ |10 | VB |
 
 20) O que é e dê exemplos de linguagens dinamicamente tipadas.
 
