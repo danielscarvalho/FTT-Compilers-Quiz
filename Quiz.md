@@ -16,6 +16,7 @@ Linguagens compiladas: Cobol, Fortran, Java, C# e Pascal.
 3) Qual a diferença entre assembler e assembly?
 
 4) O que é lexema?
+__R:O analisador léxico lê um fluxo de caracteres que compõem o programa fonte e os agrupa em seqüências significativas, chamadas lexemas. (Curiosidade: Para cada lexema, o analisador léxico produz como saída um token no formato). ~Raquel Sales__
 
 5) Qual é o autômato finito que representa a expressão regular: [a-zA-Z_0-9] e o que ela está reconhecendo?
 
@@ -29,6 +30,7 @@ __R: Porque a linguagem de alto nível é mais intuitiva ao usuário, sendo assi
 9) Explique o analisador semântico.
 
 10) Quais as fases de compilação?
+__R: Análise e Síntese. (Sub-fases descritas na questão 16) ~Raquel Sales_
 
 11) Onde as linguagens de programação, regexp e os idiomas (inglês, português e francês) se encaixam na hierarquia de Chomsky?
 
@@ -37,10 +39,22 @@ __R: Porque a linguagem de alto nível é mais intuitiva ao usuário, sendo assi
 13) O que são OPCODEs e mnemônicos?
 
 14) O que pode ser programado em assembly que não pode ser feito em linguagens de alto nível?
+__R: Nada. ~Raquel Sales_
 
 15) Porque há engenheiros que programam em assembly atualmente?
 
 16) Explique cada uma das fases de compilação.
+__R: Análise Sintática: 
+ Verifica a estrutura gramatical do programa especificadas por gramática livre do contexto (GLC);
+ Verifica se a sentença pertence a linguagem;
+ Recebe os tokens e gera árvore de derivação (Observação: os tokens são os símbolos terminais da GLC).__
+
+__Análise semântica: 
+ A informação é adiciada a árvore;
+ Verificação de tipos e erros;
+ Verifica inicialização de variáveis;
+ Verifica tipos de objetos;
+ Prepara a geração de códigos. ~Raquel Sales__
 
 17) Explique processador RISC e CISC.
 
