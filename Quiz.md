@@ -59,6 +59,7 @@ __Análise semântica:
 17) Explique processador RISC e CISC.
 
 18) Qual a diferença entre linguagens estáticas e dinâmicas, cite linguagens destes dois tipos.
+_R: A diferença está relacionada a uma exigência da linguagem na definição de variáveis. Nas linguagens estáticas, ao se declarar uma variável, o tipo deve ser obrigatoriamente informado. Quando houver uma atribuição de valor à variável declarada, o compilador se encarrega de verificar se o dado informado é aceito. Nas linguagens dinâmicas não se é exigido declarar o tipo da variável. Nesse caso a verificação da atribuição ao tipo da variável declarada é feita em tempo de execução, geralmente controlada por uma biblioteca chamada de "runtime". Exemplos: Java, C# são linguagens estáticas, JavaScript e PHP são linguagens dinâmicas.
 
 19) Os seguintes termos se aplicam a quais linguagens de programação?
 
