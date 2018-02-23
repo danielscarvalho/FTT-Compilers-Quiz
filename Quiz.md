@@ -14,6 +14,8 @@ Linguagens compiladas: Cobol, Fortran, Java, C# e Pascal.
 2) Quais são os prós e contras entre linguagens compiladas e interpretadas?
 
 3) Qual a diferença entre assembler e assembly?
+R: Assembly é uma linguagem de programção de baixo nível mas ainda inteligível pelos programadores, assembler é o programa montador
+que transforma as instruções escritas na linguagem assembly para códigos binários e endereços de memória, instruções de baixo nível (instruções de máquina) que serão utilizadas diretamente pelo processador.
 
 4) O que é lexema?
 
