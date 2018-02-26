@@ -37,6 +37,7 @@ __R: Análise e Síntese. (Sub-fases descritas na questão 16) ~Raquel Sales_
 11) Onde as linguagens de programação, regexp e os idiomas (inglês, português e francês) se encaixam na hierarquia de Chomsky?
 
 12) Como se chama um programa que converte uma linguagem de programação de alto nível em outra, e porque isso é interessante?
+
 __R: É chamado de transpilador (ou Source-to-source compiler), ele é interessante pois podemos escrever código em versões
 melhoradas de linguagens que não são suportadas nativamente pelo sistema e então transpilar esses códigos para algo que
 o sistema suporte.
