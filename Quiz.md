@@ -90,7 +90,8 @@ __R: A diferença está relacionada a uma "exigência" da linguagem na declaraç
  |10 | VB |
 
 20) O que é e dê exemplos de linguagens dinamicamente tipadas.
-
+R: são linguagens que o tipo da variavel não é determinada quando declarada, ela assume o tipo de acordo com o codigo.
+Exemplo: Javascript.
 21) O que são linguagens fortemente tipadas e fracamente tipadas? Cite exemplos.
 
 22) O que é um bloco de código?
