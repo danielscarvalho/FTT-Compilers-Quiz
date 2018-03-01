@@ -146,6 +146,13 @@ Exemplo: Javascript.
 
 41) Escreva um autômato que reconheça: A|E JK U|O
 
-42) Escreva um autômato que reconheça: <H1>    e  </H1>
-
+42) Escreva um autômato que reconheça: 
+```html
+<H1>
+```
+e
+```html
+</H1>
+```
+*Respostas na bibliografia, "Livro do Dragão" na biblioteca virtual*
 
