@@ -106,3 +106,46 @@ Exemplo: Javascript.
 24) SQL é uma linguagem declarativa ou imperativa? Porque?
 
 25) Quais as duas partes/fases principais de um compilador?
+
+26) Qual a diferença entre tokens, patterns e  lexema.
+
+27) Explique a fase de análise léxica.
+
+28) Escreva uma expressão reguar que reconheça números ponto flutuantes: 1.2, 3, 4.50, .03, 0.000032, -0.2, +3.0014
+
+29) Porque estudamos compiladores?
+
+30) Qual a diferença do Scanner e Parser?
+
+31) Que tipo de linguagem pode ser reconhecida pela máquina de Turin?
+
+32) Com base na figura abaixo, explique o processo de compilação:
+
+
+
+
+
+
+
+33) Qual a diferença entre erro de sintaxe e erro semântico?
+
+34) Write a regexp that accepts all strings of a's and b's that do not contain the subsequence “abb”.
+
+35) Escreva uma expressão regular que reconheça vogais em letras maiúsculas e consoantes em legras minúsculas
+36) Exercise 3.3.4 : Most languages are case sensitive, so keywords can be written only one way, and the regular expressions describing their lexemes are very simple. However, some languages, like SQL, are case insensitive, so a keyword can be written either in lowercase or in uppercase, or in any mixture of cases. Thus, the SQL keyword SELECT can also be written select, Select, or sElEcT, for instance. Show how to write a regular expression for a keyword in a case-insensitive language. Illustrate the idea by writing the expression for select in SQL.
+ 
+37) Qual a diferença entre erro de sintaxe e erro semântico?
+
+38) Write a regexp that accepts all strings of digits with no repeated digits. Hint: Try this problem with a few digits, such as {0; 1; 2}.
+
+39) Que tipo de linguagem o NFA e DFA podem reconhecer?
+
+40) Qual é a expressão regular para o autômato:
+
+
+
+41) Escreva um autômato que reconheça: A|E JK U|O
+
+42) Escreva um autômato que reconheça: <H1>    e  </H1>
+
+
