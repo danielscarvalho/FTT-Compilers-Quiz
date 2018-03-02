@@ -44,6 +44,8 @@ __R: Análise e Síntese. (Sub-fases descritas na questão 16) ~Raquel Sales_
 __R: Nada. ~Raquel Sales_
 
 15) Porque há engenheiros que programam em assembly atualmente?
+__R: Existem engenheiros que programam em assembly atualmente pois em alguns momentos do desenvolvimento de código C, os profissionais acabam percebendo que certos pedaços do código estão com uma performance menor do que a esperada, logo este trecho do código é convertido para linguagem assembly, melhorando assim sua performance.
+Além disso também existem alguns microcontroladores que só podem ser programados em linguagem assembly.
 
 16) Explique cada uma das fases de compilação.
 __R: Análise Sintática: 
