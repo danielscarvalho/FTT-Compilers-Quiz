@@ -36,7 +36,8 @@ __R: Análise e Síntese. (Sub-fases descritas na questão 16) ~Raquel Sales_
 
 12) Como se chama um programa que converte uma linguagem de programação de alto nível em outra, e porque isso é interessante?
 
-13) O que são OPCODEs e mnemônicos?
+13) O que são OPCODEs e mnemônicos? OPCODEs são codigos de operação que identificam uma instrução que será realizada pelo processador.
+Mnemônicos são sequencias de caracteres que lembram uma palavra e podem executar um OPCODE.
 
 14) O que pode ser programado em assembly que não pode ser feito em linguagens de alto nível?
 __R: Nada. ~Raquel Sales_
