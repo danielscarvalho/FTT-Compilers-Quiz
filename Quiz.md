@@ -112,6 +112,7 @@ Exemplo: Javascript.
 23) Porque variáveis devem ser inicializadas antes do uso?
 
 24) SQL é uma linguagem declarativa ou imperativa? Porque?
+SQL é uma linguagem declarativa. Por que você especifica como quer o resultado, mas exatamente como o banco de dados irá achar o resultado desejado é problema dele. SQL padrão não é uma linguagem de programação. Com algumas extensões pode ser. Uma linguagem imperativa é aquele que o programador define como o algoritmo deve funcionar. Felipe
 
 25) Quais as duas partes/fases principais de um compilador?
 
