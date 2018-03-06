@@ -43,7 +43,13 @@ melhoradas de linguagens que não são suportadas nativamente pelo sistema e ent
 o sistema suporte.
 Exemplos: Sass e Less para Css, Jade para HTML, TypeScript para JavaScript, EcmaScript 8 para versões anteriores, etc. ~Laion_
 
-13) O que são OPCODEs e mnemônicos?
+
+
+13) O que são OPCODEs e mnemônicos? 
+
+__R: OPCODEs são codigos de operação que identificam uma instrução que será realizada pelo processador.
+Mnemônicos são sequencias de caracteres que lembram uma palavra e podem executar um OPCODE.
+
 
 14) O que pode ser programado em assembly que não pode ser feito em linguagens de alto nível?
 __R: Nada. ~Raquel Sales_
