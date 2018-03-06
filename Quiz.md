@@ -14,6 +14,8 @@ Linguagens compiladas: Cobol, Fortran, Java, C# e Pascal.
 2) Quais são os prós e contras entre linguagens compiladas e interpretadas?
 
 3) Qual a diferença entre assembler e assembly?
+__R: Assembly é uma linguagem de programção de baixo nível mas ainda inteligível pelos programadores, assembler é o programa montador
+que transforma as instruções escritas na linguagem assembly para códigos binários e endereços de memória, instruções de baixo nível (instruções de máquina) que serão utilizadas diretamente pelo processador.
 
 4) O que é lexema?
 __R:O analisador léxico lê um fluxo de caracteres que compõem o programa fonte e os agrupa em seqüências significativas, chamadas lexemas. (Curiosidade: Para cada lexema, o analisador léxico produz como saída um token no formato). ~Raquel Sales__
@@ -36,13 +38,25 @@ __R: Análise e Síntese. (Sub-fases descritas na questão 16) ~Raquel Sales_
 
 12) Como se chama um programa que converte uma linguagem de programação de alto nível em outra, e porque isso é interessante?
 
-13) O que são OPCODEs e mnemônicos? OPCODEs são codigos de operação que identificam uma instrução que será realizada pelo processador.
+__R: É chamado de transpilador (ou Source-to-source compiler), ele é interessante pois podemos escrever código em versões
+melhoradas de linguagens que não são suportadas nativamente pelo sistema e então transpilar esses códigos para algo que
+o sistema suporte.
+Exemplos: Sass e Less para Css, Jade para HTML, TypeScript para JavaScript, EcmaScript 8 para versões anteriores, etc. ~Laion_
+
+
+
+13) O que são OPCODEs e mnemônicos? 
+
+__R: OPCODEs são codigos de operação que identificam uma instrução que será realizada pelo processador.
 Mnemônicos são sequencias de caracteres que lembram uma palavra e podem executar um OPCODE.
+
 
 14) O que pode ser programado em assembly que não pode ser feito em linguagens de alto nível?
 __R: Nada. ~Raquel Sales_
 
 15) Porque há engenheiros que programam em assembly atualmente?
+__R: Existem engenheiros que programam em assembly atualmente pois em alguns momentos do desenvolvimento de código C, os profissionais acabam percebendo que certos pedaços do código estão com uma performance menor do que a esperada, logo este trecho do código é convertido para linguagem assembly, melhorando assim sua performance.
+Além disso também existem alguns microcontroladores que só podem ser programados em linguagem assembly.
 
 16) Explique cada uma das fases de compilação.
 __R: Análise Sintática: 
@@ -60,6 +74,8 @@ __Análise semântica:
 17) Explique processador RISC e CISC.
 
 18) Qual a diferença entre linguagens estáticas e dinâmicas, cite linguagens destes dois tipos.
+
+__R: A diferença está relacionada a uma "exigência" da linguagem na declaração de suas variáveis. Nas linguagens estáticas, ao se declarar uma variável, o tipo deve ser obrigatoriamente informado. Quando houver uma atribuição de valor, o compilador se encarrega de verificar se o dado informado corresponde ao tipo declarado. Nas linguagens dinâmicas não é necessário declarar o tipo da variável. Nesse caso, a correspondência entre o valor atribuído à uma variável e seu tipo é feita em tempo de execução,  não durante a compilação. Java e C# são linguagens estáticas, enquanto JavaScript, Python, Ruby e PHP são linguagens dinâmicas._ ~Armando Dias.__
 
 19) Os seguintes termos se aplicam a quais linguagens de programação?
 
@@ -87,7 +103,8 @@ __Análise semântica:
  |10 | VB |
 
 20) O que é e dê exemplos de linguagens dinamicamente tipadas.
-
+R: são linguagens que o tipo da variavel não é determinada quando declarada, ela assume o tipo de acordo com o codigo.
+Exemplo: Javascript.
 21) O que são linguagens fortemente tipadas e fracamente tipadas? Cite exemplos.
 
 22) O que é um bloco de código?
@@ -97,3 +114,53 @@ __Análise semântica:
 24) SQL é uma linguagem declarativa ou imperativa? Porque?
 
 25) Quais as duas partes/fases principais de um compilador?
+
+26) Qual a diferença entre tokens, patterns e  lexema.
+
+27) Explique a fase de análise léxica.
+
+28) Escreva uma expressão reguar que reconheça números ponto flutuantes: 1.2, 3, 4.50, .03, 0.000032, -0.2, +3.0014
+
+29) Porque estudamos compiladores?
+
+30) Qual a diferença do Scanner e Parser?
+
+31) Que tipo de linguagem pode ser reconhecida pela máquina de Turin?
+
+32) Com base na figura abaixo, explique o processo de compilação:
+
+
+
+
+
+
+
+33) Qual a diferença entre erro de sintaxe e erro semântico?
+
+34) Write a regexp that accepts all strings of a's and b's that do not contain the subsequence “abb”.
+
+35) Escreva uma expressão regular que reconheça vogais em letras maiúsculas e consoantes em legras minúsculas
+36) Exercise 3.3.4 : Most languages are case sensitive, so keywords can be written only one way, and the regular expressions describing their lexemes are very simple. However, some languages, like SQL, are case insensitive, so a keyword can be written either in lowercase or in uppercase, or in any mixture of cases. Thus, the SQL keyword SELECT can also be written select, Select, or sElEcT, for instance. Show how to write a regular expression for a keyword in a case-insensitive language. Illustrate the idea by writing the expression for select in SQL.
+ 
+37) Qual a diferença entre erro de sintaxe e erro semântico?
+
+38) Write a regexp that accepts all strings of digits with no repeated digits. Hint: Try this problem with a few digits, such as {0; 1; 2}.
+
+39) Que tipo de linguagem o NFA e DFA podem reconhecer?
+
+40) Qual é a expressão regular para o autômato:
+
+
+
+41) Escreva um autômato que reconheça: A|E JK U|O
+
+42) Escreva um autômato que reconheça: 
+```html
+<H1>
+```
+e
+```html
+</H1>
+```
+*Respostas na bibliografia, "Livro do Dragão" na biblioteca virtual*
+
