@@ -31,6 +31,7 @@ __R: Porque a linguagem de alto nível é mais intuitiva ao usuário, sendo assi
 7) Estabeleça uma regra para criar nomes de variáveis em uma linguagem de programação, e defina sua expressão regular e autômato finito.
 
 8) Qual a diferença entre analisador sintático e semântico?
+__R: O analisador sintático separa em lexemas e o analisador semântico analisa os lexemas separados, verificando a semântica gerada anteriormente.__
 
 9) Explique o analisador semântico.
 
