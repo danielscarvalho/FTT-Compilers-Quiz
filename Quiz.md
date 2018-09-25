@@ -41,6 +41,7 @@ __R: Verifica os erros semânticos referentes ao escopo em que uma variável foi
 __R: Análise e Síntese. (Sub-fases descritas na questão 16) ~Raquel Sales__
 
 11) Onde as linguagens de programação, regexp e os idiomas (inglês, português e francês) se encaixam na hierarquia de Chomsky?
+__R: Os idiomas estão contidos na categoria 0, recursivamente enumeraveis e identificados apenas pelo maquina de Turing. As linguagens de programação se encontram na categoria 2, reconhecidas por automatos finitos com pilha e o regexp se encontra na categoria 1 reconhecida na maquina de Turing com fita limitada.__
 
 12) Como se chama um programa que converte uma linguagem de programação de alto nível em outra, e porque isso é interessante?
 
@@ -60,6 +61,7 @@ Mnemônicos são sequencias de caracteres que lembram uma palavra e podem execut
 14) O que pode ser programado em assembly que não pode ser feito em linguagens de alto nível?
 
 __R: Nada. ~Raquel Sales__
+__R: Qualquer programação em assembly pode ser feita com linguagem de alto nível, pois as instruções contidas nestas linguagens representam uma série de instruções em assembly de modo que otimize o tempo de programação e facilite a manutenção e interpretação do código. Além disso, de acordo com a Lei de Moore, qualquer linguagem de programação com instruções sequenciais, loops e condições (como assembly e nas linguagens de alto nível), permite a criação de qualquer programa. ~Bruno Chaves__
 
 15) Porque há engenheiros que programam em assembly atualmente?
 
@@ -81,6 +83,8 @@ __Análise semântica:
  Prepara a geração de códigos. ~Raquel Sales__
 
 17) Explique processador RISC e CISC.
+__R: Processador Cisc (Complex Instruction Set Computer) é capaz de executar centenas de instruções complexas e mais rapidamente, enquanto que o Risc (Reduced Instruction Set Computer) consegue executar poucas instruções simples por vez, por essa razão ele se torna
+mais barato. ~Michele.__
 
 18) Qual a diferença entre linguagens estáticas e dinâmicas, cite linguagens destes dois tipos.
 
