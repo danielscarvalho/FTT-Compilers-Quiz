@@ -31,9 +31,10 @@ __R: Porque a linguagem de alto nível é mais intuitiva ao usuário, sendo assi
 7) Estabeleça uma regra para criar nomes de variáveis em uma linguagem de programação, e defina sua expressão regular e autômato finito.
 
 8) Qual a diferença entre analisador sintático e semântico?
-__R: O analisador sintático separa em lexemas e o analisador semântico analisa os lexemas separados, verificando a semântica gerada anteriormente.__
+__R: O analisador sintático prepara a árvore sintática e a encaminha ao analisador semântico que analisa os lexemas separados, verificando a semântica gerada anteriormente. Enquanto o analisador sintático verifica se os tokens pertencem à linguagem livre de contexto, a semântica verifica se os valores e as declarações correspondem ao padrão solicitado.__
 
 9) Explique o analisador semântico.
+__R: Verifica os erros semânticos referentes ao escopo em que uma variável foi declarada, fazendo a ligação entre seu tipo, nome e valor, além de  validação de tipo. Ex: Correspondência entre declarações de variáveis.__
 
 10) Quais as fases de compilação?
 
