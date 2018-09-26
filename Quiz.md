@@ -5,11 +5,11 @@
 
 __R: Uma linguagem compilada é executada diretamente pelo sistema operacional/processador, depois do código fonte ser transformado em código de máquina pelo compilador. Uma linguagem interpretada depende de um intermediário (virtual machine), que é o responsável por interpretar o código fonte e compilá-lo, em tempo de execução, tranformando-o em código de máquina para que o processador consiga executar o programa.__
 
-Exermplos:
+__Exermplos:
 
 Linguagens interpretadas: Javascript, Lua, Python
 
-Linguagens compiladas: Cobol, Fortran, Java, C# e Pascal.
+Linguagens compiladas: Cobol, Fortran, Java, C# e Pascal.__
 
 2) Quais são os prós e contras entre linguagens compiladas e interpretadas?
 
@@ -81,10 +81,9 @@ __Análise semântica:
  - Verifica inicialização de variáveis;
  - Verifica tipos de objetos;
  - Prepara a geração de códigos. ~Raquel Sales__
- __R: Análise Lexica:
+__R: Análise Lexica:
  - lê o arquivo de código fonte
- - ela faz o papel do Scanner que por sua vez, analisa caracter por caracter até achar um caracter de parada, geralmente um espaço ou 
- um ; conforme a sintaxe da linguagem.
+ - ela faz o papel do Scanner que por sua vez, analisa caracter por caracter até achar um caracter de parada, geralmente um espaço ou um; conforme a sintaxe da linguagem.
  - Assim reconhece como um lexima e o coloca em uma tabela de leximas(tokens)
  - Ela pode reconhecer por exemplo, se um nome de uma variavel está iniciando com um número por meio de uma regexp e emitir 
  um erro. ~Bruno N.__
