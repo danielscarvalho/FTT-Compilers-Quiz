@@ -71,16 +71,23 @@ Além disso também existem alguns microcontroladores que só podem ser programa
 16) Explique cada uma das fases de compilação.
 
 __R: Análise Sintática: 
- Verifica a estrutura gramatical do programa especificadas por gramática livre do contexto (GLC);
- Verifica se a sentença pertence a linguagem;
- Recebe os tokens e gera árvore de derivação (Observação: os tokens são os símbolos terminais da GLC).__
+ - Verifica a estrutura gramatical da tabela gerada pela analise lexica;
+ - Verifica se a sentença pertence a linguagem;
+ - Recebe os tokens e gera árvore de derivação (Observação: os tokens são os símbolos terminais da GLC).__
 
 __Análise semântica: 
- A informação é adiciada a árvore;
- Verificação de tipos e erros;
- Verifica inicialização de variáveis;
- Verifica tipos de objetos;
- Prepara a geração de códigos. ~Raquel Sales__
+ - A informação é adiciada a árvore;
+ - Verificação de tipos e erros;
+ - Verifica inicialização de variáveis;
+ - Verifica tipos de objetos;
+ - Prepara a geração de códigos. ~Raquel Sales__
+ __R: Análise Lexica:
+ - lê o arquivo de código fonte
+ - ela faz o papel do Scanner que por sua vez, analisa caracter por caracter até achar um caracter de parada, geralmente um espaço ou 
+ um ; conforme a sintaxe da linguagem.
+ - Assim reconhece como um lexima e o coloca em uma tabela de leximas(tokens)
+ - Ela pode reconhecer por exemplo, se um nome de uma variavel está iniciando com um número por meio de uma regexp e emitir 
+ um erro. ~Bruno N.__
 
 17) Explique processador RISC e CISC.
 __R: Processador Cisc (Complex Instruction Set Computer) é capaz de executar centenas de instruções complexas e mais rapidamente, enquanto que o Risc (Reduced Instruction Set Computer) consegue executar poucas instruções simples por vez, por essa razão ele se torna
