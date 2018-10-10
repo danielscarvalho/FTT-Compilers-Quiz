@@ -89,10 +89,10 @@ __R: Análise Lexica:
  um erro. ~Bruno N.__
 
 17) Explique processador RISC e CISC.
-__R: Processador Cisc (Complex Instruction Set Computer) é capaz de executar centenas de instruções complexas e mais rapidamente, enquanto que o Risc (Reduced Instruction Set Computer) consegue executar poucas instruções simples por vez, --por essa razão ele se torna
-mais barato--. ~Michele.__
+__R: Processador Cisc (Complex Instruction Set Computer) é capaz de executar centenas de instruções complexas e mais rapidamente, enquanto que o Risc (Reduced Instruction Set Computer) consegue executar poucas instruções simples por vez, ~~por essa razão ele se torna
+mais barato~~. ~Michele.__
 
-__R: Without commercial interest, processor developers were unable to manufacture RISC chips in large enough volumes to make their price competitive. (RISC vs. CISC)[https://cs.stanford.edu/people/eroberts/courses/soco/projects/risc/risccisc/]__
+__R: Without commercial interest, processor developers were unable to manufacture RISC chips in large enough volumes to make their price competitive. [RISC vs. CISC](https://cs.stanford.edu/people/eroberts/courses/soco/projects/risc/risccisc/)__
 
 18) Qual a diferença entre linguagens estáticas e dinâmicas, cite linguagens destes dois tipos.
 
