@@ -61,7 +61,7 @@ ________________________________________________________________________________
 
 __R: O analisador léxico lê um fluxo de caracteres que compõem o programa fonte e os agrupa em seqüências significativas, chamadas lexemas.  Observe que, sendo sequências significativas, um lexema constitui a menor unidade significativa da análise léxica. Isso não significa que ele é um caracter (nessa comparação, está muito mais próximo de cada palavra lida).__
 
-__ATENÇÃO: "lexema" e "token" não são a mesma coisa!__
+__ATENÇÃO: "lexema" e "token" não são a mesma coisa! [Melhores explicações sobre Patterns nos exemplos da resposta 26]__
 
 _Para cada lexema, o analisador léxico produz como saída um token no formato. O token é uma unidade léxica reconhecida por uma regra (conhecida como "Padrão"). De modo grosseiro, o token é algo como a classificação do lexema._
 
@@ -258,6 +258,31 @@ ________________________________________________________________________________
 __________________________________________________________________________________________________________________________________
 
 26) Qual a diferença entre tokens, patterns e  lexema.
+
+__Para cada lexema, o analisador léxico produz como saída um token no formato. O token é uma unidade léxica reconhecida por uma regra (conhecida como "Padrão"/"Pattern"). De modo grosseiro, o token é algo como a classificação do lexema._
+
+__É composto pelo seguinte formato: <nome [, valor]> ( entre colchetes é opcional, vai depender se o token tem argumento ou não). O__ _nome_ __é, basicamente, o "tipo" do lexema a ser classificado (não se esqueça que estamos "classificando" um lexema). Ele pode ser escrito por extenso ou identificado com um número. O__ _valor_ __é o valor do próprio lexema, ou seja, sua palavra, ou o endereço onde ela está referenciada na tabela de lexemas.__
+
+_Exemplo:_
+
+_Pense na seguinte sentença:          "string exemplo = "Olá Mundo"_
+
+_Temos os seguintes lexemas:_
+
+| Posição | Lexema |
+| ---|---| 
+| 1 | string |
+| 2 | exemplo |
+| 3 | = |
+| 4 | Olá Mundo |
+
+__Vamos pensar primeiramente no lexema 4 - Olá Mundo : mesmo sendo duas palavras, formam apenas um lexema, pois as duas palavras são atribuídas para a mesma variável ("exemplo"). Assim, o token desse lexema seria algo como <literal, Olá Mundo>
+(observe que estamos falando de um analisador sintático, portanto, ainda é muito cedo para classificar o tipo como string, char etc., trata-se apenas de um literal. Se tratando de números, a regra/Padrão determina o reconhecimento apenas pela sequência de carcateres numériccos, com pontos ou vírgula. Nomes de variáveis, funções, parâmetros de funções são classificados pela sequência seguida de caracteres e são chamados de "identificadores").__
+
+__Agora, se analisarmos o lexema 3- =, teremos o seguinte token <=,>. O "=" já tem um significado próprio, é um token de relação. Portanto o compilador saberá que, ao se deparar com um símbolo de igual ele fará alguma atribuição a uma variável. Portanto, esse token não tem valor/argumento.__
+
+
+__(RESPOSTA: Amanda, Giovanni e Victor)__
 
 __________________________________________________________________________________________________________________________________
 
