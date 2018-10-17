@@ -138,8 +138,10 @@ ________________________________________________________________________________
 
 13) O que são OPCODEs e mnemônicos? 
 
-__R: OPCODEs são codigos de operação que identificam uma instrução que será realizada pelo processador.
-Mnemônicos são sequencias de caracteres que lembram uma palavra e podem executar um OPCODE.__
+__R: OPCODEs são codigos de operação que identificam uma instrução que será realizada pelo processador. Assim, é possível enviar comando diretamente para o processador.
+Mnemônicos são sequencias de caracteres que lembram uma palavra e podem executar um OPCODE. A ideia, como o próprio nome sugere (a palavra "mnemônico" significa "relativo à memória"), serve para trazer a memória, lembrar facilmente o comando o processador executará em vez de ter que memorizar um código numérico e sua respectiva ação__
+
+__(REVISÃO: Amanda, Giovanni e Victor)__
 
 __________________________________________________________________________________________________________________________________
 
@@ -159,18 +161,19 @@ ________________________________________________________________________________
 
 16) Explique cada uma das fases de compilação.
 
-__R: Análise Sintática: 
+__R: Análise Sintática:__
  - Verifica a estrutura gramatical da tabela gerada pela analise lexica;
  - Verifica se a sentença pertence a linguagem;
  - Recebe os tokens e gera árvore de derivação (Observação: os tokens são os símbolos terminais da GLC).__
 
-__Análise semântica: 
+__Análise semântica:__
  - A informação é adiciada a árvore;
  - Verificação de tipos e erros;
  - Verifica inicialização de variáveis;
  - Verifica tipos de objetos;
  - Prepara a geração de códigos. ~Raquel Sales__
-__R: Análise Lexica:
+ 
+__R: Análise Lexica:__
  - lê o arquivo de código fonte
  - ela faz o papel do Scanner que por sua vez, analisa caracter por caracter até achar um caracter de parada, geralmente um espaço ou um; conforme a sintaxe da linguagem.
  - Assim reconhece como um lexima e o coloca em uma tabela de leximas(tokens)
@@ -233,6 +236,11 @@ ________________________________________________________________________________
 
 22) O que é um bloco de código?
 
+__R: Conjunto de ações (linhas de código) a serem executadas, delimitadas por um símbolo (geralmente colchete - {...código...}).__
+__É comum haver blocos dentro de blocos, como no caso dos laços de repetição encadeados__
+
+__(RESPOSTA: Amanda, Victor e Giovanni)__
+
 __________________________________________________________________________________________________________________________________
 
 23) Porque variáveis devem ser inicializadas antes do uso?
@@ -270,6 +278,10 @@ ________________________________________________________________________________
 __________________________________________________________________________________________________________________________________
 
 31) Que tipo de linguagem pode ser reconhecida pela máquina de Turin?
+
+__R: A ideia é que qualquer linguagem regular possa ser reconhecida pela máquina de Turin__
+
+__(RESPOSTA: Amanda, Victor, Giovanni)__
 
 __________________________________________________________________________________________________________________________________
 
