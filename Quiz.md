@@ -24,7 +24,7 @@ _C# e Java podem ser compiladas e interpretadas._
 __(REVISÃO: Amanda, Victor e Giovanni)__
 
 
-
+__________________________________________________________________________________________________________________________________
 
 
 2) Quais são os prós e contras entre linguagens compiladas e interpretadas?
@@ -40,6 +40,7 @@ Além disso, o código interpretado é otimizado conforme seu uso, ou seja, a ca
 __(RESPOSTA: Amanda, Victor e Giovanni)__
 
 
+__________________________________________________________________________________________________________________________________
 
 
 3) Qual a diferença entre assembler e assembly?
@@ -52,7 +53,7 @@ __Cada computador tem seu assembler específico, que é utilizado com um traduto
 
 __(REVISÃO: Amanda, Giovanni e Victor)__
 
-
+__________________________________________________________________________________________________________________________________
 
 
 4) O que é lexema?
@@ -81,6 +82,7 @@ Agora, se analisarmos o lexema 3- =, teremos o seguinte token <=,>. O "=" já te
 __(RESPOSTA: Raquel Sales / REVISÃO: Amanda, Giovanni e Victor)__
 
 
+__________________________________________________________________________________________________________________________________
 
 
 5) Qual é o autômato finito que representa a expressão regular: [a-zA-Z_0-9] e o que ela está reconhecendo?
