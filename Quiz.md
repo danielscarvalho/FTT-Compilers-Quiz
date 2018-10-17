@@ -87,24 +87,38 @@ ________________________________________________________________________________
 
 5) Qual é o autômato finito que representa a expressão regular: [a-zA-Z_0-9] e o que ela está reconhecendo?
 
+__________________________________________________________________________________________________________________________________
+
 6) Porque é interessante desenvolver programas em linguagem de alto nível ao invés de utilizar direto código de máquina? 
 
 __R: Porque a linguagem de alto nível é mais intuitiva ao usuário, sendo assim mais produtiva e inteligível. Ao invés de digitar inúmeras linhas na linguagem de baixo nível, o usuário pode apenas chamar funções prontas - que ele consiga entender o intuito - na linguagem de alto nível.__
 
+__________________________________________________________________________________________________________________________________
+
 7) Estabeleça uma regra para criar nomes de variáveis em uma linguagem de programação, e defina sua expressão regular e autômato finito.
+
+__________________________________________________________________________________________________________________________________
 
 8) Qual a diferença entre analisador sintático e semântico?
 __R: O analisador sintático prepara a árvore sintática e a encaminha ao analisador semântico que analisa os lexemas separados, verificando a semântica gerada anteriormente. Enquanto o analisador sintático verifica se os tokens pertencem à linguagem livre de contexto, a semântica verifica se os valores e as declarações correspondem ao padrão solicitado.__
 
+__________________________________________________________________________________________________________________________________
+
 9) Explique o analisador semântico.
 __R: Verifica os erros semânticos referentes ao escopo em que uma variável foi declarada, fazendo a ligação entre seu tipo, nome e valor, além de  validação de tipo. Ex: Correspondência entre declarações de variáveis.__
+
+__________________________________________________________________________________________________________________________________
 
 10) Quais as fases de compilação?
 
 __R: Análise e Síntese. (Sub-fases descritas na questão 16) ~Raquel Sales__
 
+__________________________________________________________________________________________________________________________________
+
 11) Onde as linguagens de programação, regexp e os idiomas (inglês, português e francês) se encaixam na hierarquia de Chomsky?
 __R: Os idiomas estão contidos na categoria 0, recursivamente enumeraveis e identificados apenas pelo maquina de Turing. As linguagens de programação se encontram na categoria 2, reconhecidas por automatos finitos com pilha e o regexp se encontra na categoria 1 reconhecida na maquina de Turing com fita limitada.__
+
+__________________________________________________________________________________________________________________________________
 
 12) Como se chama um programa que converte uma linguagem de programação de alto nível em outra, e porque isso é interessante?
 
@@ -113,23 +127,28 @@ melhoradas de linguagens que não são suportadas nativamente pelo sistema e ent
 o sistema suporte.
 Exemplos: Sass e Less para Css, Jade para HTML, TypeScript para JavaScript, EcmaScript 8 para versões anteriores, etc. ~Laion__
 
-
+__________________________________________________________________________________________________________________________________
 
 13) O que são OPCODEs e mnemônicos? 
 
 __R: OPCODEs são codigos de operação que identificam uma instrução que será realizada pelo processador.
 Mnemônicos são sequencias de caracteres que lembram uma palavra e podem executar um OPCODE.__
 
+__________________________________________________________________________________________________________________________________
 
 14) O que pode ser programado em assembly que não pode ser feito em linguagens de alto nível?
 
 __R: Nada. ~Raquel Sales__
 __R: Qualquer programação em assembly pode ser feita com linguagem de alto nível, pois as instruções contidas nestas linguagens representam uma série de instruções em assembly de modo que otimize o tempo de programação e facilite a manutenção e interpretação do código. Além disso, de acordo com a Lei de Moore, qualquer linguagem de programação com instruções sequenciais, loops e condições (como assembly e nas linguagens de alto nível), permite a criação de qualquer programa. ~Bruno Chaves__
 
+__________________________________________________________________________________________________________________________________
+
 15) Porque há engenheiros que programam em assembly atualmente?
 
 __R: Existem engenheiros que programam em assembly atualmente pois em alguns momentos do desenvolvimento de código C, os profissionais acabam percebendo que certos pedaços do código estão com uma performance menor do que a esperada, logo este trecho do código é convertido para linguagem assembly, melhorando assim sua performance.
 Além disso também existem alguns microcontroladores que só podem ser programados em linguagem assembly.__
+
+__________________________________________________________________________________________________________________________________
 
 16) Explique cada uma das fases de compilação.
 
@@ -151,15 +170,21 @@ __R: Análise Lexica:
  - Ela pode reconhecer por exemplo, se um nome de uma variavel está iniciando com um número por meio de uma regexp e emitir 
  um erro. ~Bruno N.__
 
+__________________________________________________________________________________________________________________________________
+
 17) Explique processador RISC e CISC.
 __R: Processador Cisc (Complex Instruction Set Computer) é capaz de executar centenas de instruções complexas e mais rapidamente, enquanto que o Risc (Reduced Instruction Set Computer) consegue executar poucas instruções simples por vez, ~~por essa razão ele se torna
 mais barato~~. ~Michele.__
 
 __R: Without commercial interest, processor developers were unable to manufacture RISC chips in large enough volumes to make their price competitive. [RISC vs. CISC](https://cs.stanford.edu/people/eroberts/courses/soco/projects/risc/risccisc/)__
 
+__________________________________________________________________________________________________________________________________
+
 18) Qual a diferença entre linguagens estáticas e dinâmicas, cite linguagens destes dois tipos.
 
 __R: A diferença está relacionada a uma "exigência" da linguagem na declaração de suas variáveis. Nas linguagens estáticas, ao se declarar uma variável, o tipo deve ser obrigatoriamente informado. Quando houver uma atribuição de valor, o compilador se encarrega de verificar se o dado informado corresponde ao tipo declarado. Nas linguagens dinâmicas não é necessário declarar o tipo da variável. Nesse caso, a correspondência entre o valor atribuído à uma variável e seu tipo é feita em tempo de execução,  não durante a compilação. Java e C# são linguagens estáticas, enquanto JavaScript, Python, Ruby e PHP são linguagens dinâmicas. ~Armando Dias.__
+
+__________________________________________________________________________________________________________________________________
 
 19) Os seguintes termos se aplicam a quais linguagens de programação?
 
@@ -186,34 +211,60 @@ __R: A diferença está relacionada a uma "exigência" da linguagem na declaraç
  | 9 | Python |
  |10 | VB |
 
+__________________________________________________________________________________________________________________________________
+
 20) O que é e dê exemplos de linguagens dinamicamente tipadas.
 
 __R: são linguagens que o tipo da variavel não é determinada quando declarada, ela assume o tipo de acordo com o codigo.
 Exemplo: Javascript.__
 
+__________________________________________________________________________________________________________________________________
+
 21) O que são linguagens fortemente tipadas e fracamente tipadas? Cite exemplos.
+
+__________________________________________________________________________________________________________________________________
 
 22) O que é um bloco de código?
 
+__________________________________________________________________________________________________________________________________
+
 23) Porque variáveis devem ser inicializadas antes do uso?
+
+__________________________________________________________________________________________________________________________________
 
 24) SQL é uma linguagem declarativa ou imperativa? Porque?
 
 __R: SQL é uma linguagem declarativa. Por que você especifica como quer o resultado, mas exatamente como o banco de dados irá achar o resultado desejado é problema dele. SQL padrão não é uma linguagem de programação. Com algumas extensões pode ser. Uma linguagem imperativa é aquele que o programador define como o algoritmo deve funcionar. Felipe__
 
+__________________________________________________________________________________________________________________________________
+
 25) Quais as duas partes/fases principais de um compilador?
+
+__________________________________________________________________________________________________________________________________
 
 26) Qual a diferença entre tokens, patterns e  lexema.
 
+__________________________________________________________________________________________________________________________________
+
 27) Explique a fase de análise léxica.
+
+__________________________________________________________________________________________________________________________________
 
 28) Escreva uma expressão reguar que reconheça números ponto flutuantes: 1.2, 3, 4.50, .03, 0.000032, -0.2, +3.0014
 
+__________________________________________________________________________________________________________________________________
+
 29) Porque estudamos compiladores?
+
+__________________________________________________________________________________________________________________________________
 
 30) Qual a diferença do Scanner e Parser?
 
+__________________________________________________________________________________________________________________________________
+
 31) Que tipo de linguagem pode ser reconhecida pela máquina de Turin?
+
+__________________________________________________________________________________________________________________________________
 
 32) Com base na figura abaixo, explique o processo de compilação:
 
@@ -225,23 +276,41 @@ __R: SQL é uma linguagem declarativa. Por que você especifica como quer o resu
 
 33) Qual a diferença entre erro de sintaxe e erro semântico?
 
+__________________________________________________________________________________________________________________________________
+
 34) Write a regexp that accepts all strings of a's and b's that do not contain the subsequence “abb”.
+
+__________________________________________________________________________________________________________________________________
 
 35) Escreva uma expressão regular que reconheça vogais em letras maiúsculas e consoantes em legras minúsculas
 
+__________________________________________________________________________________________________________________________________
+
 36) Exercise 3.3.4 : Most languages are case sensitive, so keywords can be written only one way, and the regular expressions describing their lexemes are very simple. However, some languages, like SQL, are case insensitive, so a keyword can be written either in lowercase or in uppercase, or in any mixture of cases. Thus, the SQL keyword SELECT can also be written select, Select, or sElEcT, for instance. Show how to write a regular expression for a keyword in a case-insensitive language. Illustrate the idea by writing the expression for select in SQL.
+
+__________________________________________________________________________________________________________________________________
  
 37) Qual a diferença entre erro de sintaxe e erro semântico?
 
+__________________________________________________________________________________________________________________________________
+
 38) Write a regexp that accepts all strings of digits with no repeated digits. Hint: Try this problem with a few digits, such as {0; 1; 2}.
 
+__________________________________________________________________________________________________________________________________
+
 39) Que tipo de linguagem o NFA e DFA podem reconhecer?
+
+__________________________________________________________________________________________________________________________________
 
 40) Qual é a expressão regular para o autômato:
 
 
 
+__________________________________________________________________________________________________________________________________
+
 41) Escreva um autômato que reconheça: A|E JK U|O
+
+__________________________________________________________________________________________________________________________________
 
 42) Escreva um autômato que reconheça: 
 ```html
