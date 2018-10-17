@@ -71,7 +71,12 @@ _Exemplo:_
 
 _Pense na seguinte sentença:          "string exemplo = "Olá Mundo"_
 
-_Temos os seguintes lexemas: 1 - string / 2 - exemplo / 3 - = / 4 - Olá Mundo_
+_Temos os seguintes lexemas:_
+
+| 1 | string |
+| 2 | exemplo |
+| 3 | = |
+| 4 | Olá Mundo |
 
 _Vamos pensar primeiramente no lexema 4 - Olá Mundo : mesmo sendo duas palavras, formam apenas um lexema, pois as duas palavras são atribuídas para a mesma variável ("exemplo"). Assim, o token desse lexema seria algo como <literal, Olá Mundo>
 (observe que estamos falando de um analisador sintático, portanto, ainda é muito cedo para classificar o tipo como string, char etc., trata-se apenas de um literal. Se tratando de números, a regra permanece: não há decimal, integer, double etc., são todos classificados apenas como "número". Nomes de variáveis, funções, parâmetros de funções são chamados de "identificadores")._
