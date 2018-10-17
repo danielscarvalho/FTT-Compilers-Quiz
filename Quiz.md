@@ -4,7 +4,7 @@
 1) Qual a diferença entre uma linguagem compilada e uma linguagem interpretada? Cite exemplos de linguagens.
 
 
-__R: Primeiramente, é importante lembrar que todo código de alto nível passa por algum tipo de compilação, senão ele não poderá ser executado. A diferença principal entre um e outro está em COMO e QUANDO essa compilação é feita.
+__R: Primeiramente, é importante lembrar que todo código de alto nível passa por algum tipo de compilação, senão ele não poderá ser executado. A diferença principal entre um e outro está em COMO e QUANDO essa compilação é feita.__
 
 __Uma linguagem compilada é, como o próprio nome diz, compilada e transformada código de máquina, gerando um arquivo de saída pronto para execução. Então, pode ser executado diretamente pelo sistema operacional/processador, não precisando mais do código-fonte.__
 
@@ -13,7 +13,7 @@ _(Tenha como exemplo os trabalhos feitos no semestre anterior com Arduino: era e
 __Linguagens interpretadas são dinâmicas, ou seja, a compilação e a leitura dão-se em tempo de execução e linha a linha. Ao ser lida, gera um arquivo específico que depende de um intermediário (virtual machine da própria linguagem) para interpretar. Então, essa saída é compilada, transformada em código de máquina e executada em tempo real pelo processador.
 Por isso, um programa escrito em linguagem interpretada não pode ser separado de seu código-fonte__
 
-__Exemplos:
+__Exemplos:__
 
 _Linguagens interpretadas: Javascript, Lua, Python_
 
@@ -67,16 +67,16 @@ _Para cada lexema, o analisador léxico produz como saída um token no formato. 
 
 _É composto pelo seguinte formato: <nome [, valor]> ( entre colchetes é opcional, vai depender se o token tem argumento ou não). O __nome__ é, basicamente, o "tipo" do lexema a ser classificado (não se esqueça que estamos "classificando" um lexema). Ele pode ser escrito por extenso ou identificado com um número. O __valor__ é o valor do próprio lexema, ou seja, sua palavra, ou o endereço onde ela está referenciada na tabela de lexemas._
 
-_Exemplo:
+_Exemplo:_
 
-Pense na seguinte sentença:          "string exemplo = "Olá Mundo"
+_Pense na seguinte sentença:          "string exemplo = "Olá Mundo"_
 
-Temos os seguintes lexemas: 1 - string / 2 - exemplo / 3 - = / 4 - Olá Mundo
+_Temos os seguintes lexemas: 1 - string / 2 - exemplo / 3 - = / 4 - Olá Mundo_
 
-Vamos pensar primeiramente no lexema 4 - Olá Mundo : mesmo sendo duas palavras, formam apenas um lexema, pois as duas palavras são atribuídas para a mesma variável ("exemplo"). Assim, o token desse lexema seria algo como <literal, Olá Mundo>
-(observe que estamos falando de um analisador sintático, portanto, ainda é muito cedo para classificar o tipo como string, char etc., trata-se apenas de um literal. Se tratando de números, a regra permanece: não há decimal, integer, double etc., são todos classificados apenas como "número". Nomes de variáveis, funções, parâmetros de funções são chamados de "identificadores").
+_Vamos pensar primeiramente no lexema 4 - Olá Mundo : mesmo sendo duas palavras, formam apenas um lexema, pois as duas palavras são atribuídas para a mesma variável ("exemplo"). Assim, o token desse lexema seria algo como <literal, Olá Mundo>
+(observe que estamos falando de um analisador sintático, portanto, ainda é muito cedo para classificar o tipo como string, char etc., trata-se apenas de um literal. Se tratando de números, a regra permanece: não há decimal, integer, double etc., são todos classificados apenas como "número". Nomes de variáveis, funções, parâmetros de funções são chamados de "identificadores")._
 
-Agora, se analisarmos o lexema 3- =, teremos o seguinte token <=,>. O "=" já tem um significado próprio, é um token de relação. Portanto o compilador saberá que, ao se deparar com um símbolo de igual ele fará alguma atribuição a uma variável. Portanto, esse token não tem valor/argumento.
+_Agora, se analisarmos o lexema 3- =, teremos o seguinte token <=,>. O "=" já tem um significado próprio, é um token de relação. Portanto o compilador saberá que, ao se deparar com um símbolo de igual ele fará alguma atribuição a uma variável. Portanto, esse token não tem valor/argumento._
 
 
 __(RESPOSTA: Raquel Sales / REVISÃO: Amanda, Giovanni e Victor)__
