@@ -73,7 +73,7 @@ _Pense na seguinte sentença:          "string exemplo = "Olá Mundo"_
 
 _Temos os seguintes lexemas:_
 
-| ID | Tipo |
+
 | ---|---| 
 | 1 | string |
 | 2 | exemplo |
