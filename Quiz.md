@@ -3,24 +3,85 @@
 
 1) Qual a diferença entre uma linguagem compilada e uma linguagem interpretada? Cite exemplos de linguagens.
 
-__R: Uma linguagem compilada é executada diretamente pelo sistema operacional/processador, depois do código fonte ser transformado em código de máquina pelo compilador. Uma linguagem interpretada depende de um intermediário (virtual machine), que é o responsável por interpretar o código fonte e compilá-lo, em tempo de execução, tranformando-o em código de máquina para que o processador consiga executar o programa.__
 
-__Exermplos:
+__R: Primeiramente, é importante lembrar que todo código de alto nível passa por algum tipo de compilação, senão ele não poderá ser executado. A diferença principal entre um e outro está em COMO e QUANDO essa compilação é feita.
 
-Linguagens interpretadas: Javascript, Lua, Python
+__Uma linguagem compilada é, como o próprio nome diz, compilada e transformada código de máquina, gerando um arquivo de saída pronto para execução. Então, pode ser executado diretamente pelo sistema operacional/processador, não precisando mais do código-fonte.__
 
-Linguagens compiladas: Cobol, Fortran, Java, C# e Pascal.__
+_(Tenha como exemplo os trabalhos feitos no semestre anterior com Arduino: era escrito um código no computador desktop. Então, mandava-se compilar e, depois, o arquivo compilado era armazenado dentro do processador do Arduino. Assim, era possível executar o programa até mesmo sem estar conectado ao PC)_
+
+__Linguagens interpretadas são dinâmicas, ou seja, a compilação e a leitura dão-se em tempo de execução e linha a linha. Ao ser lida, gera um arquivo específico que depende de um intermediário (virtual machine da própria linguagem) para interpretar. Então, essa saída é compilada, transformada em código de máquina e executada em tempo real pelo processador.
+Por isso, um programa escrito em linguagem interpretada não pode ser separado de seu código-fonte__
+
+__Exemplos:
+
+_Linguagens interpretadas: Javascript, Lua, Python_
+
+_Linguagens compiladas: Cobol, Fortran, C e Pascal._
+
+_C# e Java podem ser compiladas e interpretadas._
+
+__(REVISÃO: Amanda, Victor e Giovanni)__
+
+
+
+
 
 2) Quais são os prós e contras entre linguagens compiladas e interpretadas?
 
+
+__R: Linguagens compiladas previnem que os erros (sintáticos, semânticos, léxicos etc.) cheguem ao código de máquina (erros de runtime não podem ser prevenidos dessa maneira). Além disso, há maior segurança num programa compilado, pois o código-fonte não precisa estar junto para que o programa seja executado.
+Elas também oferecem a vantagem de serem otimizadas como um todo, eliminando do arquivo de saída trechos de código que não serão utilizados. Isso porque a análise é feita em blocos e o programa é visto como um todo.
+Todavia, o arquivo de saída não oferece flexibidade, ou seja, somente será executado na plataforma/sistema operacional para o qual foi compilado.__
+
+__Linguagens interpretadas não oferecem tanta segurança, pois é possível acessar o código-fonte que, obrigatoriamente, deve estar presente na execução. Elas também podem apresentar diversos erros durante a execução do programa, já que a leitura, interpretação e execução são todas feitas linha a linha. Porém, há maior flexibilidade de execução, podendo ser executado em várias plataformas diferentes e tendo uso muito comum para desenvolvimento web.
+Além disso, o código interpretado é otimizado conforme seu uso, ou seja, a cada vez que ele é lido, sua execução é otimizada.__
+
+__(RESPOSTA: Amanda, Victor e Giovanni)__
+
+
+
+
 3) Qual a diferença entre assembler e assembly?
+
 
 __R: Assembly é uma linguagem de programção de baixo nível mas ainda inteligível pelos programadores, assembler é o programa montador
 que transforma as instruções escritas na linguagem assembly para códigos binários e endereços de memória, instruções de baixo nível (instruções de máquina) que serão utilizadas diretamente pelo processador.__
 
+__Cada computador tem seu assembler específico, que é utilizado com um tradutor ("assemblador" -> compilador). Ele é quem gera os código binários e define os endereços de memória.__
+
+__(REVISÃO: Amanda, Giovanni e Victor)__
+
+
+
+
 4) O que é lexema?
 
-__R: O analisador léxico lê um fluxo de caracteres que compõem o programa fonte e os agrupa em seqüências significativas, chamadas lexemas. (Curiosidade: Para cada lexema, o analisador léxico produz como saída um token no formato). ~Raquel Sales__
+
+__R: O analisador léxico lê um fluxo de caracteres que compõem o programa fonte e os agrupa em seqüências significativas, chamadas lexemas.  Observe que, sendo sequências significativas, um lexema constitui a menor unidade significativa da análise léxica. Isso não significa que ele é um caracter (nessa comparação, está muito mais próximo de cada palavra lida).__
+
+__ATENÇÃO: "lexema" e "token" não são a mesma coisa!__
+
+_Para cada lexema, o analisador léxico produz como saída um token no formato. O token é uma unidade léxica reconhecida por uma regra (conhecida como "Padrão"). De modo grosseiro, o token é algo como a classificação do lexema._
+
+_É composto pelo seguinte formato: <nome [, valor]> ( entre colchetes é opcional, vai depender se o token tem argumento ou não). O __nome__ é, basicamente, o "tipo" do lexema a ser classificado (não se esqueça que estamos "classificando" um lexema). Ele pode ser escrito por extenso ou identificado com um número. O __valor__ é o valor do próprio lexema, ou seja, sua palavra, ou o endereço onde ela está referenciada na tabela de lexemas._
+
+_Exemplo:
+
+Pense na seguinte sentença:          "string exemplo = "Olá Mundo"
+
+Temos os seguintes lexemas: 1 - string / 2 - exemplo / 3 - = / 4 - Olá Mundo
+
+Vamos pensar primeiramente no lexema 4 - Olá Mundo : mesmo sendo duas palavras, formam apenas um lexema, pois as duas palavras são atribuídas para a mesma variável ("exemplo"). Assim, o token desse lexema seria algo como <literal, Olá Mundo>
+(observe que estamos falando de um analisador sintático, portanto, ainda é muito cedo para classificar o tipo como string, char etc., trata-se apenas de um literal. Se tratando de números, a regra permanece: não há decimal, integer, double etc., são todos classificados apenas como "número". Nomes de variáveis, funções, parâmetros de funções são chamados de "identificadores").
+
+Agora, se analisarmos o lexema 3- =, teremos o seguinte token <=,>. O "=" já tem um significado próprio, é um token de relação. Portanto o compilador saberá que, ao se deparar com um símbolo de igual ele fará alguma atribuição a uma variável. Portanto, esse token não tem valor/argumento.
+
+
+__(RESPOSTA: Raquel Sales / REVISÃO: Amanda, Giovanni e Victor)__
+
+
+
 
 5) Qual é o autômato finito que representa a expressão regular: [a-zA-Z_0-9] e o que ela está reconhecendo?
 
