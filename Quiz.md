@@ -129,6 +129,22 @@ __R: são linguagens que o tipo da variavel não é determinada quando declarada
 Exemplo: Javascript.__
 
 21) O que são linguagens fortemente tipadas e fracamente tipadas? Cite exemplos.
+__R:Linguagens fortemente tipadas são linguagens que exigem que na declaração da variável o seu tipo seja obrigatoriamente explicitado. Como por exemplo, na linguagem Java devemos escrever as variáveis da seguinte maneira:
+	int numero = 0;
+		String texto = “olá mundo”;
+	Boolean flag = true;
+São exemplos de linguagens fortemente tipadas: Java, C#, C++, C, COBOL, Fortran.
+Já nas linguagens fracamente tipadas o programador não deve explicitar o tipo da variável pois a linguagem é capaz de identificar o tipo da variável de acordo com o valor que a variável assume em tempo de execução do programa. Nas linguagens com essa tipagem, uma variável pode alterar seu tipo quantas vezes forem necessárias, sempre de acordo com o valor que recebe. Abaixo um exemplo de como são declaradas as variáveis em Javascript, que é uma linguagem fracamente tipada.
+
+__R:|	x = 5
+	ou 
+	var x = 5|
+Neste caso, o programa assume que a variável x é do tipo int.
+	__R:|y = ”ola mundo”
+	ou
+	var y = “ola mundo”|
+	Neste caso o programa assume que a variável y é do tipo string.
+São exemplos de linguagens fracamente tipadas: PHP, Javascript, Ruby, Python.
 
 22) O que é um bloco de código?
 
@@ -141,6 +157,10 @@ __R: SQL é uma linguagem declarativa. Por que você especifica como quer o resu
 25) Quais as duas partes/fases principais de um compilador?
 
 26) Qual a diferença entre tokens, patterns e  lexema.
+__R;Tokens, patterns e lexemas são termos relacionados a implementação de um analisador léxico.
+Token – É um par composto pelo nome do token e um valor de atributo (opcional).  O nome do token é sempre um símbolo abstrato que representa a unidade léxica, por exemplo: Palavras reservadas, números, identificadores e etc.
+Padrão – É a forma que os lexemas de uma cadeia de caracteres podem assumir, por exemplo: o padrão de uma palavra reservada é a sequência de caracteres que fazem parte da formação da palavra; O padrão de um identificador é a sequência de caracteres que fazem parte da formação dos nomes de variáveis e funções.
+Lexema – É uma sequência de caracteres reconhecidos por um padrão.
 
 27) Explique a fase de análise léxica.
 
@@ -163,6 +183,7 @@ __R: SQL é uma linguagem declarativa. Por que você especifica como quer o resu
 33) Qual a diferença entre erro de sintaxe e erro semântico?
 
 34) Write a regexp that accepts all strings of a's and b's that do not contain the subsequence “abb”.
+__R:^(a(?!(b{2}))|b)+$
 
 35) Escreva uma expressão regular que reconheça vogais em letras maiúsculas e consoantes em legras minúsculas
 
