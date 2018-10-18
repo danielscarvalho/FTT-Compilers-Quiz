@@ -148,7 +148,8 @@ São exemplos de linguagens fracamente tipadas: PHP, Javascript, Ruby, Python.
 
 22) O que é um bloco de código?
 
-23) Porque variáveis devem ser inicializadas antes do uso?
+23) Por que variáveis devem ser inicializadas antes do uso?
+__R: As variáveis são apontadores para endereços de memória. Devem ser inicializadas antes de ser atribuídas pois precisam realizar um alocamento de memória compatível com o dado que será guardado. Não há como armazenar um objeto criado a partir de uma classe em uma variável que alocou memória suficiente para um tipo Inteiro. ~Jorge Henrique__
 
 24) SQL é uma linguagem declarativa ou imperativa? Porque?
 
