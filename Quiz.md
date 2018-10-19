@@ -147,6 +147,7 @@ Neste caso, o programa assume que a variável x é do tipo int.
 São exemplos de linguagens fracamente tipadas: PHP, Javascript, Ruby, Python.
 
 22) O que é um bloco de código?
+__R: Blocos de código são um conceito existente há muito tempo em linguagens xBase. Não como algo que apareceu da noite para o dia, e sim uma evolução progressiva utilizando a combinação de muitos conceitos da linguagem para a sua implementação.
 
 23) Por que variáveis devem ser inicializadas antes do uso?
 __R: As variáveis são apontadores para endereços de memória. Devem ser inicializadas antes de ser atribuídas pois precisam realizar um alocamento de memória compatível com o dado que será guardado. Não há como armazenar um objeto criado a partir de uma classe em uma variável que alocou memória suficiente para um tipo Inteiro. ~Jorge Henrique__
@@ -170,6 +171,7 @@ Lexema – É uma sequência de caracteres reconhecidos por um padrão.
 29) Porque estudamos compiladores?
 
 30) Qual a diferença do Scanner e Parser?
+__R: O Scanner realiza a análise dos símbolos inseridos no código e é ligado ao processo de análise léxica. Já o Parser tem a função de verificar o conjunto de símbolos e está ligado ao processo semântico de compilação.
 
 31) Que tipo de linguagem pode ser reconhecida pela máquina de Turin?
 
@@ -182,6 +184,7 @@ Lexema – É uma sequência de caracteres reconhecidos por um padrão.
 
 
 33) Qual a diferença entre erro de sintaxe e erro semântico?
+__R: A diferença entre um erro de sintaxe e um erro semântico é que no erro sintático ele apresenta um erro quando não consegue entender aquela instrução escrita, como por exemplo estar escrito “FORM” ao invés do “FROM” em uma consulta do SQL. Já no erro semântico, se trada de quando compilador não entende o significado daquilo escrito no código.
 
 34) Write a regexp that accepts all strings of a's and b's that do not contain the subsequence “abb”.
 __R:^(a(?!(b{2}))|b)+$
