@@ -21,7 +21,7 @@ _Linguagens compiladas: Cobol, Fortran, C e Pascal._
 
 _C# e Java podem ser compiladas e interpretadas._
 
-__(REVISÃO: Amanda, Victor e Giovanni)__
+__(REVISÃO: Amanda, Victor)__
 
 
 __________________________________________________________________________________________________________________________________
@@ -37,7 +37,7 @@ Todavia, o arquivo de saída não oferece flexibidade, ou seja, somente será ex
 __Linguagens interpretadas não oferecem tanta segurança, pois é possível acessar o código-fonte que, obrigatoriamente, deve estar presente na execução. Elas também podem apresentar diversos erros durante a execução do programa, já que a leitura, interpretação e execução são todas feitas linha a linha. Porém, há maior flexibilidade de execução, podendo ser executado em várias plataformas diferentes e tendo uso muito comum para desenvolvimento web.
 Além disso, o código interpretado é otimizado conforme seu uso, ou seja, a cada vez que ele é lido, sua execução é otimizada.__
 
-__(RESPOSTA: Amanda, Victor e Giovanni)__
+__(RESPOSTA: Amanda, Victor)__
 
 
 __________________________________________________________________________________________________________________________________
@@ -51,7 +51,7 @@ que transforma as instruções escritas na linguagem assembly para códigos bin�
 
 __Cada computador tem seu assembler específico, que é utilizado com um tradutor ("assemblador" -> compilador). Ele é quem gera os código binários e define os endereços de memória.__
 
-__(REVISÃO: Amanda, Giovanni e Victor)__
+__(REVISÃO: Amanda, Victor)__
 
 __________________________________________________________________________________________________________________________________
 
@@ -86,7 +86,7 @@ _Vamos pensar primeiramente no lexema 4 - Olá Mundo : mesmo sendo duas palavras
 _Agora, se analisarmos o lexema 3- =, teremos o seguinte token <=,>. O "=" já tem um significado próprio, é um token de relação. Portanto o compilador saberá que, ao se deparar com um símbolo de igual ele fará alguma atribuição a uma variável. Portanto, esse token não tem valor/argumento._
 
 
-__(RESPOSTA: Raquel Sales / REVISÃO: Amanda, Giovanni e Victor)__
+__(RESPOSTA: Raquel Sales / REVISÃO: Amanda, Victor)__
 
 
 __________________________________________________________________________________________________________________________________
@@ -141,7 +141,7 @@ ________________________________________________________________________________
 __R: OPCODEs são codigos de operação que identificam uma instrução que será realizada pelo processador. Assim, é possível enviar comando diretamente para o processador.
 Mnemônicos são sequencias de caracteres que lembram uma palavra e podem executar um OPCODE. A ideia, como o próprio nome sugere (a palavra "mnemônico" significa "relativo à memória"), serve para trazer a memória, lembrar facilmente o comando o processador executará em vez de ter que memorizar um código numérico e sua respectiva ação__
 
-__(REVISÃO: Amanda, Giovanni e Victor)__
+__(REVISÃO: Amanda, Victor)__
 
 __________________________________________________________________________________________________________________________________
 
@@ -239,7 +239,7 @@ ________________________________________________________________________________
 __R: Conjunto de ações (linhas de código) a serem executadas, delimitadas por um símbolo (geralmente colchete - {...código...}).__
 __É comum haver blocos dentro de blocos, como no caso dos laços de repetição encadeados__
 
-__(RESPOSTA: Amanda, Victor e Giovanni)__
+__(RESPOSTA: Amanda, Victor)__
 
 __________________________________________________________________________________________________________________________________
 
@@ -282,7 +282,7 @@ __Vamos pensar primeiramente no lexema 4 - Olá Mundo : mesmo sendo duas palavra
 __Agora, se analisarmos o lexema 3- =, teremos o seguinte token <=,>. O "=" já tem um significado próprio, é um token de relação. Portanto o compilador saberá que, ao se deparar com um símbolo de igual ele fará alguma atribuição a uma variável. Portanto, esse token não tem valor/argumento.__
 
 
-__(RESPOSTA: Amanda, Giovanni e Victor)__
+__(RESPOSTA: Amanda, Victor)__
 
 __________________________________________________________________________________________________________________________________
 
@@ -306,7 +306,7 @@ ________________________________________________________________________________
 
 __R: A ideia é que qualquer linguagem regular possa ser reconhecida pela máquina de Turin__
 
-__(RESPOSTA: Amanda, Victor, Giovanni)__
+__(RESPOSTA: Amanda, Victor)__
 
 __________________________________________________________________________________________________________________________________
 
