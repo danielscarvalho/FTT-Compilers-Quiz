@@ -1,6 +1,9 @@
 # Compilers Quiz
 ## CEFSA - FTT - EC
 
+- Use notação **markdown** para responder
+- Faça um **fork** e depois **pull request**
+
 1) Qual a diferença entre uma linguagem compilada e uma linguagem interpretada? Cite exemplos de linguagens.
 
 __R: Uma linguagem compilada é executada diretamente pelo sistema operacional/processador, depois do código fonte ser transformado em código de máquina pelo compilador. Uma linguagem interpretada depende de um intermediário (virtual machine), que é o responsável por interpretar o código fonte e compilá-lo, em tempo de execução, tranformando-o em código de máquina para que o processador consiga executar o programa.__
