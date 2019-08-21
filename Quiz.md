@@ -213,5 +213,5 @@ e
 ```html
 </H1>
 ```
-*Respostas na bibliografia, "Livro do Dragão" na biblioteca virtual*
+*Respostas na bibliografia, "Livro do Dragão" na biblioteca virtual* e físico na biblioteca "Compiladores - Princípios, Técnicas e Ferramentas, Sethi,Ravi, Aho,Alfred V."
 
