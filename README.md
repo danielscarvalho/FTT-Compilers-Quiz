@@ -1,5 +1,5 @@
 # compilers-quiz
-Compilers Quiz
+Compilers Quiz (Questionário de compiladores)
 
 Importante: 
 - O professor não corrige este quiz! 
