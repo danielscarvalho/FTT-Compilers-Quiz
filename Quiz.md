@@ -216,5 +216,17 @@ e
 ```html
 </H1>
 ```
+
+43) HTML e CSS são linguagems (de marcação) declarativas ou imperativas? Explique?
+
+44) Defina a tabela de símbolos.
+
+45) Qual é a entrada e a saída da fase de análise sintática?
+
+46) De exemplos de parsers.
+
+47) Que tipo de linguagem um automato finito reconhece?
+
+
 *Respostas na bibliografia, "Livro do Dragão" na biblioteca virtual* e físico na biblioteca "Compiladores - Princípios, Técnicas e Ferramentas, Sethi,Ravi, Aho,Alfred V."
 
