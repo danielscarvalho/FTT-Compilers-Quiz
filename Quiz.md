@@ -110,9 +110,12 @@ __R: A diferença está relacionada a uma "exigência" da linguagem na declaraç
 | C | Dinâmica |
 | D | OO |
 | E | Funcional |
-| F | 3G |
-| G | 4G |
- 
+| F | Tipada |
+| G | Não tipada |
+| H | Compilada |
+| I | Interpretada |
+
+
  | ID | Linguagem |
  | --- | --- |
  | 1 | C |
@@ -125,6 +128,12 @@ __R: A diferença está relacionada a uma "exigência" da linguagem na declaraç
  | 8 | Perl |
  | 9 | Python |
  |10 | VB |
+ |11 | Lua |
+ |12 | HTML |
+ |13 | PHP |
+ |14 | C# |
+ |15 | Wolfram Language |
+ 
 
 20) O que é e dê exemplos de linguagens dinamicamente tipadas.
 
@@ -231,7 +240,7 @@ e
 
 49) O que representa o "id" na tabela de símbolos?
 
-50) Qual a diferença entre parser e scanner?
+50) Quais as linguagens/compiladores criadas por brasileiros?
 
 ---------------
 
