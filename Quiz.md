@@ -227,6 +227,13 @@ e
 
 47) Que tipo de linguagem um automato finito reconhece?
 
+48) Quais ferramentas (softwares) podemos utilizar para nos ajudar a criar um compilador? Como elas se integram?
+
+49) O que representa o "id" na tabela de símbolos?
+
+50) Crie um automato e uma expressão regular que reconheça a palavra reservada SELECT da linguagem SQL.
+
+---------------
 
 *Respostas na bibliografia, "Livro do Dragão" na biblioteca virtual* e físico na biblioteca "Compiladores - Princípios, Técnicas e Ferramentas, Sethi,Ravi, Aho,Alfred V."
 
