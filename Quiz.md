@@ -1,6 +1,9 @@
 # Compilers Quiz
 ## CEFSA - FTT - EC
 
+- Use notação **markdown** para responder
+- Faça um **fork** e depois **pull request**
+
 1) Qual a diferença entre uma linguagem compilada e uma linguagem interpretada? Cite exemplos de linguagens.
 
 
@@ -123,7 +126,7 @@ __R: Análise e Síntese. (Sub-fases descritas na questão 16) ~Raquel Sales__
 __________________________________________________________________________________________________________________________________
 
 11) Onde as linguagens de programação, regexp e os idiomas (inglês, português e francês) se encaixam na hierarquia de Chomsky?
-__R: Os idiomas estão contidos na categoria 0, recursivamente enumeraveis e identificados apenas pelo maquina de Turing. As linguagens de programação se encontram na categoria 2, reconhecidas por automatos finitos com pilha e o regexp se encontra na categoria 1 reconhecida na maquina de Turing com fita limitada.__
+__R: Os idiomas estão contidos na categoria 0, recursivamente enumeraveis e identificados apenas pelo maquina de Turing. As linguagens de programação se encontram na categoria 2, reconhecidas por automatos finitos com pilha e o regexp se encontra na categoria 3 reconhecida por autômato finito, pois são as linguagens regulares.__
 
 __________________________________________________________________________________________________________________________________
 
@@ -231,10 +234,27 @@ Exemplo: Javascript.__
 __________________________________________________________________________________________________________________________________
 
 21) O que são linguagens fortemente tipadas e fracamente tipadas? Cite exemplos.
+__R:Linguagens fortemente tipadas são linguagens que exigem que na declaração da variável o seu tipo seja obrigatoriamente explicitado. Como por exemplo, na linguagem Java devemos escrever as variáveis da seguinte maneira:
+	int numero = 0;
+		String texto = “olá mundo”;
+	Boolean flag = true;
+São exemplos de linguagens fortemente tipadas: Java, C#, C++, C, COBOL, Fortran.
+Já nas linguagens fracamente tipadas o programador não deve explicitar o tipo da variável pois a linguagem é capaz de identificar o tipo da variável de acordo com o valor que a variável assume em tempo de execução do programa. Nas linguagens com essa tipagem, uma variável pode alterar seu tipo quantas vezes forem necessárias, sempre de acordo com o valor que recebe. Abaixo um exemplo de como são declaradas as variáveis em Javascript, que é uma linguagem fracamente tipada.
+
+__R:|	x = 5
+	ou 
+	var x = 5|
+Neste caso, o programa assume que a variável x é do tipo int.
+	__R:|y = ”ola mundo”
+	ou
+	var y = “ola mundo”|
+	Neste caso o programa assume que a variável y é do tipo string.
+São exemplos de linguagens fracamente tipadas: PHP, Javascript, Ruby, Python.
 
 __________________________________________________________________________________________________________________________________
 
 22) O que é um bloco de código?
+__R: Blocos de código são um conceito existente há muito tempo em linguagens xBase. Não como algo que apareceu da noite para o dia, e sim uma evolução progressiva utilizando a combinação de muitos conceitos da linguagem para a sua implementação.
 
 __R: Conjunto de ações (linhas de código) a serem executadas, delimitadas por um símbolo (geralmente colchete - {...código...}).__
 __É comum haver blocos dentro de blocos, como no caso dos laços de repetição encadeados__
@@ -244,6 +264,8 @@ __(RESPOSTA: Amanda, Victor)__
 __________________________________________________________________________________________________________________________________
 
 23) Porque variáveis devem ser inicializadas antes do uso?
+
+__R: As variáveis são apontadores para endereços de memória. Devem ser inicializadas antes de ser atribuídas pois precisam realizar um alocamento de memória compatível com o dado que será guardado. Não há como armazenar um objeto criado a partir de uma classe em uma variável que alocou memória suficiente para um tipo Inteiro. ~Jorge Henrique__
 
 __________________________________________________________________________________________________________________________________
 
@@ -258,6 +280,10 @@ ________________________________________________________________________________
 __________________________________________________________________________________________________________________________________
 
 26) Qual a diferença entre tokens, patterns e  lexema.
+__R;Tokens, patterns e lexemas são termos relacionados a implementação de um analisador léxico.
+Token – É um par composto pelo nome do token e um valor de atributo (opcional).  O nome do token é sempre um símbolo abstrato que representa a unidade léxica, por exemplo: Palavras reservadas, números, identificadores e etc.
+Padrão – É a forma que os lexemas de uma cadeia de caracteres podem assumir, por exemplo: o padrão de uma palavra reservada é a sequência de caracteres que fazem parte da formação da palavra; O padrão de um identificador é a sequência de caracteres que fazem parte da formação dos nomes de variáveis e funções.
+Lexema – É uma sequência de caracteres reconhecidos por um padrão.
 
 __Para cada lexema, o analisador léxico produz como saída um token no formato. O token é uma unidade léxica reconhecida por uma regra (conhecida como "Padrão"/"Pattern"). De modo grosseiro, o token é algo como a classificação do lexema._
 
@@ -299,6 +325,7 @@ ________________________________________________________________________________
 __________________________________________________________________________________________________________________________________
 
 30) Qual a diferença do Scanner e Parser?
+__R: O Scanner realiza a análise dos símbolos inseridos no código e é ligado ao processo de análise léxica. Já o Parser tem a função de verificar o conjunto de símbolos e está ligado ao processo semântico de compilação.
 
 __________________________________________________________________________________________________________________________________
 
@@ -319,10 +346,12 @@ ________________________________________________________________________________
 
 
 33) Qual a diferença entre erro de sintaxe e erro semântico?
+__R: A diferença entre um erro de sintaxe e um erro semântico é que no erro sintático ele apresenta um erro quando não consegue entender aquela instrução escrita, como por exemplo estar escrito “FORM” ao invés do “FROM” em uma consulta do SQL. Já no erro semântico, se trada de quando compilador não entende o significado daquilo escrito no código.
 
 __________________________________________________________________________________________________________________________________
 
 34) Write a regexp that accepts all strings of a's and b's that do not contain the subsequence “abb”.
+__R:^(a(?!(b{2}))|b)+$
 
 __________________________________________________________________________________________________________________________________
 
@@ -364,5 +393,5 @@ e
 ```html
 </H1>
 ```
-*Respostas na bibliografia, "Livro do Dragão" na biblioteca virtual*
+*Respostas na bibliografia, "Livro do Dragão" na biblioteca virtual* e físico na biblioteca "Compiladores - Princípios, Técnicas e Ferramentas, Sethi,Ravi, Aho,Alfred V."
 
