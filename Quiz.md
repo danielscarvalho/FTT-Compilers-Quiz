@@ -231,7 +231,7 @@ e
 
 49) O que representa o "id" na tabela de símbolos?
 
-50) Crie um automato e uma expressão regular que reconheça a palavra reservada SELECT da linguagem SQL.
+50) Qual a diferença entre parser e scanner?
 
 ---------------
 
