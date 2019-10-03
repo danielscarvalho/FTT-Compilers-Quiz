@@ -136,6 +136,24 @@ __R: A diferença está relacionada a uma "exigência" da linguagem na declaraç
  |14 | C# |
  |15 | Wolfram Language |
  
+ _RESPOSTA:_
+ | Tipo | Linguagem |
+ | --- | --- |
+ | A,F,H | C |
+ | A,D,F,H | C++ |
+ | A,H | COBOL |
+ | A,F,H | Fortran |
+ | A,C,D,F,H | Java |
+ | B,E,I | Lisp |
+ | B,I | SQL |
+ | A,C,D,I | Perl |
+ | A,C,D,I | Python |
+ | A,D,H | VB |
+ | A,C,D | Lua |
+ | B | HTML |
+ | A,C,D | PHP |
+ | A,C,D | C# |
+ | A,C,D | Wolfram Language |
 
 20) O que é e dê exemplos de linguagens dinamicamente tipadas.
 
@@ -179,6 +197,8 @@ Padrão – É a forma que os lexemas de uma cadeia de caracteres podem assumir,
 Lexema – É uma sequência de caracteres reconhecidos por um padrão.
 
 27) Explique a fase de análise léxica.
+
+__R: A análise léxica consiste na primeira análise realizada durante o processo de compilação e tem por objetivo identificar os denominados lexemas, e transformá-los em tokens que formarão a tabela de lexemas. Um ponto importante dessa etapa, é que ela se assemelha a um scanner, pois passa por todo o código e "enumera" as variáveis sem se aprofundar em sua aplicação.__
 
 28) Escreva uma expressão reguar que reconheça números ponto flutuantes: 1.2, 3, 4.50, .03, 0.000032, -0.2, +3.0014
 
