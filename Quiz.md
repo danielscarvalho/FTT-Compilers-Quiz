@@ -187,7 +187,8 @@ Lexema – É uma sequência de caracteres reconhecidos por um padrão.
 30) Qual a diferença do Scanner e Parser?
 __R: O Scanner realiza a análise dos símbolos inseridos no código e é ligado ao processo de análise léxica. Já o Parser tem a função de verificar o conjunto de símbolos e está ligado ao processo semântico de compilação.
 
-31) Que tipo de linguagem pode ser reconhecida pela máquina de Turin?
+31) Que tipo de linguagem pode ser reconhecida pela máquina de Turing?
+__R: Qualquer linguagem pode ser reconhecida. Pois seu conceito é de um computador na esfera teórica, abstraído apenas de seus aspecos lógicos. ~ Lucas__
 
 32) Com base na figura abaixo, explique o processo de compilação:
 
@@ -208,6 +209,8 @@ __R:^(a(?!(b{2}))|b)+$
 36) Exercise 3.3.4 : Most languages are case sensitive, so keywords can be written only one way, and the regular expressions describing their lexemes are very simple. However, some languages, like SQL, are case insensitive, so a keyword can be written either in lowercase or in uppercase, or in any mixture of cases. Thus, the SQL keyword SELECT can also be written select, Select, or sElEcT, for instance. Show how to write a regular expression for a keyword in a case-insensitive language. Illustrate the idea by writing the expression for select in SQL.
  
 37) Qual a diferença entre erro de sintaxe e erro semântico?
+__R: Erros de sintaxe estão resumidos a características não obedecidas há regras na forma lógica em que seus símbolos estão dispostos em uma linguagem e como se comportam, tal como sequência de palavras ou uso de parenteses (abertura e fechamento). 
+Já erros da esfera semântica estão relacionados a problemas de significados na linguagem ao tentar passar a informação desejada, assim como em uma linguagem natural, pode estar gramáticamente correta porém não haver sentido algum, um código pode seguir todas as regras gramaticais da linguagem e possuir instruções sem sentido lógico, como atribuir uma variávelo declarada como string e, ao mesmo tempo ser atribuida a um inteiro. ~ Lucas__
 
 38) Write a regexp that accepts all strings of digits with no repeated digits. Hint: Try this problem with a few digits, such as {0; 1; 2}.
 
