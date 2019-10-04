@@ -20,12 +20,11 @@ Linguagens compiladas: Cobol, Fortran, Java, C# e Pascal.__
 
 3) Qual a diferença entre assembler e assembly?
 
-__R: Assembly é uma linguagem de programção de baixo nível mas ainda inteligível pelos programadores, assembler é o programa montador
-que transforma as instruções escritas na linguagem assembly para códigos binários e endereços de memória, instruções de baixo nível (instruções de máquina) que serão utilizadas diretamente pelo processador.__
+__R: Assembly é uma linguagem de programação legível para nós humanos, com maior facilidade de assimilação, desenvolvimento e análise. Assembler é um compilador de programas Assembly, ou seja, ele é um tradutor, um programa ou conjunto de programas que transformará a linguagem de alto nível entendida pelo homem para um linguagem de baixo nível, a linguagem de máquina. O Assembler é o responsável por gerar o arquivo binário a partir do código Assembly. ~ Respondido por Fabio e Matheus Barreto__  __Revisado por Matheus Alberto e Mateus Moura__
 
 4) O que é lexema?
 
-__R: Um lexema é uma sequencia de caracteres no programa fonte que casa com o padrão para um token e é identificado pelo analisador léxico como uma instancia desse token. ~ Mateus Moura e Matheus Alberto.__
+__R: Um lexema é uma sequencia de caracteres no programa fonte que casa com o padrão para um token e é identificado pelo analisador léxico como uma instancia desse token. ~ Mateus Moura e Matheus Alberto.__  __Revisado por Matheus Barreto e Fabio__
 
 5) Qual é o autômato finito que representa a expressão regular: [a-zA-Z_0-9] e o que ela está reconhecendo?
 __R: Essa expressão regular reconhece caracteres de A a Z, maiúsculos e minúsculos, o símbolo _ e números de 0 a 9.__
@@ -246,6 +245,7 @@ __R: Erros de sintaxe estão resumidos a características não obedecidas há re
 Já erros da esfera semântica estão relacionados a problemas de significados na linguagem ao tentar passar a informação desejada, assim como em uma linguagem natural, pode estar gramáticamente correta porém não haver sentido algum, um código pode seguir todas as regras gramaticais da linguagem e possuir instruções sem sentido lógico, como atribuir uma variávelo declarada como string e, ao mesmo tempo ser atribuida a um inteiro. ~ Lucas__
 
 38) Write a regexp that accepts all strings of digits with no repeated digits. Hint: Try this problem with a few digits, such as {0; 1; 2}.
+__R: ^(?:(?!([0-2])\1).)*$ ~Respondido por Fabio e Matheus Barreto__ __Revisado por Matheus Alberto e Mateus Moura__
 
 39) Que tipo de linguagem o NFA e DFA podem reconhecer?
 __R: Linguagens regulares que podem ser expressas usando expressões regulares, ou seja, uma linguagem produzida utilizando as operações de concatenação, união e fecho de Kleene sobre os elementos de um alfabeto.
@@ -289,7 +289,7 @@ __R: A análise sintática (segunda fase de compilação) tem como entrada um co
 46) De exemplos de parsers.
 
 47) Que tipo de linguagem um automato finito reconhece?
-__R: Um automato finito reconhece linguagens que são regulares, ou seja, são descritas por expressões regulares. ~ Mateus Moura e Matheus Alberto.__
+__R: Um automato finito reconhece linguagens que são regulares, ou seja, são descritas por expressões regulares. ~ Mateus Moura e Matheus Alberto.__ __Revisado por Matheus Barreto e Fabio__
 
 48) Quais ferramentas (softwares) podemos utilizar para nos ajudar a criar um compilador? Como elas se integram?
 
