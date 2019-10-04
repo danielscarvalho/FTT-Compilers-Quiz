@@ -28,6 +28,7 @@ que transforma as instruções escritas na linguagem assembly para códigos bin�
 __R: Um lexema é uma sequencia de caracteres no programa fonte que casa com o padrão para um token e é identificado pelo analisador léxico como uma instancia desse token. ~ Mateus Moura e Matheus Alberto.__
 
 5) Qual é o autômato finito que representa a expressão regular: [a-zA-Z_0-9] e o que ela está reconhecendo?
+__R: Essa expressão regular reconhece caracteres de A a Z, maiúsculos e minúsculos, o símbolo _ e números de 0 a 9.__
 
 6) Por que é interessante desenvolver programas em linguagem de alto nível ao invés de utilizar direto código de máquina? 
 
@@ -237,6 +238,8 @@ __R:([AEIOUbcdfghjklmnpqrstvwxyz]) Respondido por Carlos e Caue - 082170042/0811
 
 
 36) Exercise 3.3.4 : Most languages are case sensitive, so keywords can be written only one way, and the regular expressions describing their lexemes are very simple. However, some languages, like SQL, are case insensitive, so a keyword can be written either in lowercase or in uppercase, or in any mixture of cases. Thus, the SQL keyword SELECT can also be written select, Select, or sElEcT, for instance. Show how to write a regular expression for a keyword in a case-insensitive language. Illustrate the idea by writing the expression for select in SQL.
+
+__R: ([A-Za-z])+ Respondido por João Machado e Igor Cruz - 081170036/081170008
  
 37) Qual a diferença entre erro de sintaxe e erro semântico?
 __R: Erros de sintaxe estão resumidos a características não obedecidas há regras na forma lógica em que seus símbolos estão dispostos em uma linguagem e como se comportam, tal como sequência de palavras ou uso de parenteses (abertura e fechamento). 
