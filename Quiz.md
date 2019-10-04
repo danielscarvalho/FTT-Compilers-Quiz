@@ -269,7 +269,6 @@ __R: Tabela de símbolos é uma estrutura de dados, geralmente uma árvore ou ta
 46) De exemplos de parsers.
 
 47) Que tipo de linguagem um automato finito reconhece?
-
 __R: Um automato finito reconhece linguagens que são regulares, ou seja, são descritas por expressões regulares. ~ Mateus Moura e Matheus Alberto.__
 
 48) Quais ferramentas (softwares) podemos utilizar para nos ajudar a criar um compilador? Como elas se integram?
