@@ -191,6 +191,7 @@ __R: As variáveis são apontadores para endereços de memória. Devem ser inici
 __R: SQL é uma linguagem declarativa. Por que você especifica como quer o resultado, mas exatamente como o banco de dados irá achar o resultado desejado é problema dele. SQL padrão não é uma linguagem de programação. Com algumas extensões pode ser. Uma linguagem imperativa é aquele que o programador define como o algoritmo deve funcionar. Felipe__
 
 25) Quais as duas partes/fases principais de um compilador?
+__R: Fase de síntese e fase de análise.__
 
 26) Qual a diferença entre tokens, patterns e  lexema.
 __RTokens, patterns e lexemas são termos relacionados a implementação de um analisador léxico.
@@ -207,6 +208,7 @@ __R: A análise léxica consiste na primeira análise realizada durante o proces
 __R: ^[-+]?[0-9]*\.?[0-9]+$
 
 29) Porque estudamos compiladores?
+__R: Para que seja possível obter maior conhecimento sobre o processo de geração de um software, entendendo intrinsecamente, a partir da camada de mais alto nível, quais as ações necessárias para torná-las entendíveis para as máquinas, ou seja, baixo nível, porém mantendo a funcionalidade equivalente à estrutura inicial.__
 
 30) Qual a diferença do Scanner e Parser?
 __R: O Scanner realiza a análise dos símbolos inseridos no código e é ligado ao processo de análise léxica. Já o Parser tem a função de verificar o conjunto de símbolos e está ligado ao processo semântico de compilação.
