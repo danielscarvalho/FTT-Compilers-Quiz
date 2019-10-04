@@ -238,7 +238,7 @@ e
 ```
 
 43) HTML e CSS são linguagems (de marcação) declarativas ou imperativas? Explique?
-__R:  ~Rodrigo__
+__R:  São linguagens de marcação (declarativas), pois nelas o programador fornece apenas o conjunto das tarefas a serem realizadas, não estando preocupado com os detalhes de como o executor da linguagem realmente implementará essas tarefas. ~Rodrigo__
 44) Defina a tabela de símbolos.
 
 __R: Tabela de símbolos é uma estrutura de dados, geralmente uma árvore ou tabela de hash, utilizada em compiladores para o armazenamento de informações de identificadores, tais como constantes, funções, variáveis e tipos de dados. É utilizada em quase todas as fases de compilação, como a varredura, a análise sintática, a análise semântica, otimização e geração de código. Em cada fase ela pode ser utilizada como base para comparações ou mesmo atualizada com novos identificadores durante a saída de cada fase.
@@ -252,7 +252,7 @@ __R: Tabela de símbolos é uma estrutura de dados, geralmente uma árvore ou ta
 48) Quais ferramentas (softwares) podemos utilizar para nos ajudar a criar um compilador? Como elas se integram?
 
 49) O que representa o "id" na tabela de símbolos?
-__R: Durante a criação da tabela de símbolos, na fase de análise léxica, todas as variáveis do código, que está sendo compilado, são salvas com o nome de "id", sendo distinguidas a partir de então pela posição em que estão na string (já reduzida para uma string única) do código. Logo, os "id" na tabela de símbolos, são as variáveis do código compilado.~Filipe__
+__R: Durante a criação da tabela de símbolos, na fase de análise léxica, todas as variáveis do código, que está sendo compilado, são salvas com o nome de "id", sendo distinguidas a partir de então pela posição em que estão na string (já reduzida para uma string única) do código. Logo, os "id" na tabela de símbolos, são as variáveis do código compilado. ~Filipe__
 50) Quais as linguagens/compiladores criadas por brasileiros?
 
 ### Fase de síntese - back-end
