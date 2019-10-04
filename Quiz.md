@@ -242,10 +242,21 @@ Já erros da esfera semântica estão relacionados a problemas de significados n
 38) Write a regexp that accepts all strings of digits with no repeated digits. Hint: Try this problem with a few digits, such as {0; 1; 2}.
 
 39) Que tipo de linguagem o NFA e DFA podem reconhecer?
+__R: Linguagens regulares que podem ser expressas usando expressões regulares, ou seja, uma linguagem produzida utilizando as operações de concatenação, união e fecho de Kleene sobre os elementos de um alfabeto.
+Respondido por *Jonatas João - 081170035*
 
-40) Qual é a expressão regular para o autômato:
+40) Qual é a expressão regular para o autômato:https://pt.wikipedia.org/wiki/Ficheiro:NFAexample.svg, seja M = ({s0, s1, s2, s3, s4}, {0, 1}, Δ, s0, {s1, s3}) onde a função de transição Δ é definida pela tabela de transição de estados abaixo:
 
+|  | 0 | 1 | ε |
+| ---|---|---| ---|
+| S0 | {} | {} | {S1, S3} | 
+| S1 | {S2} | {S1} | {} |
+| S2 | {S1} | {S2} | {} |
+| S3 | {S3} | {S4} | {} |
+| S4 | {S4} | {S3} | {} |
 
+__R: (1*(01*01*)*) ∪ (0*(10*10*)*)
+Respondido por *Jonatas João - 081170035*
 
 41) Escreva um autômato que reconheça: A|E JK U|O
 __R: **->Q0->(AEIOU)->Q1(ESTADOFINAL)->ESPAÇO->Q2->(BCDFGHJKLMNPQRSTVWXYZ)->Q2 ->(BCDFGHJKLMNPQRSTVWXYZ)->Q3->(ESPAÇO)->Q0**
