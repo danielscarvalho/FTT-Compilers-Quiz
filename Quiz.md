@@ -10,7 +10,7 @@
 
 __R: Uma linguagem compilada é executada diretamente pelo sistema operacional/processador, depois do código fonte ser transformado em código de máquina pelo compilador. Uma linguagem interpretada depende de um intermediário (virtual machine), que é o responsável por interpretar o código fonte e compilá-lo, em tempo de execução, tranformando-o em código de máquina para que o processador consiga executar o programa.__
 
-__Exermplos:
+__Exemplos:
 
 Linguagens interpretadas: Javascript, Lua, Python
 
@@ -34,6 +34,7 @@ __R: O analisador léxico lê um fluxo de caracteres que compõem o programa fon
 __R: Porque a linguagem de alto nível é mais intuitiva ao usuário, sendo assim mais produtiva e inteligível. Ao invés de digitar inúmeras linhas na linguagem de baixo nível, o usuário pode apenas chamar funções prontas - que ele consiga entender o intuito - na linguagem de alto nível.__
 
 7) Estabeleça uma regra para criar nomes de variáveis em uma linguagem de programação, e defina sua expressão regular e autômato finito.
+__R:Só poderam ser criadas variaveis que contenham letras ou numeros ou _, tendo obrigatoriamente no começo uma letra, nao podendo contar caracteres especiais, espaço ou pontuações. Regexp: ^[a-zA-Z_$][a-zA-Z_$0-9]*$ .__
 
 8) Qual a diferença entre analisador sintático e semântico?
 __R: O analisador sintático prepara a árvore sintática e a encaminha ao analisador semântico que analisa os lexemas separados, verificando a semântica gerada anteriormente. Enquanto o analisador sintático verifica se os tokens pertencem à linguagem livre de contexto, a semântica verifica se os valores e as declarações correspondem ao padrão solicitado.__
