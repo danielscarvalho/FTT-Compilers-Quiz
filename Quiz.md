@@ -161,7 +161,8 @@ Neste caso, o programa assume que a variável x é do tipo int.
 São exemplos de linguagens fracamente tipadas: PHP, Javascript, Ruby, Python.
 
 22) O que é um bloco de código?
-__R: Blocos de código são um conceito existente há muito tempo em linguagens xBase. Não como algo que apareceu da noite para o dia, e sim uma evolução progressiva utilizando a combinação de muitos conceitos da linguagem para a sua implementação.
+
+__R: Blocos de programação são aglomerados de instruções e declarações que têm escopo conjunto. Ou seja, as variáveis definidas como locais dentro de um bloco somente serão presentes dentro deste bloco assim como as instruções ali presentes. Geralmente são delimitados por chaves ({...}) e podem ser aninhados - colocados um dentro do outro__
 
 23) Por que variáveis devem ser inicializadas antes do uso?
 __R: As variáveis são apontadores para endereços de memória. Devem ser inicializadas antes de ser atribuídas pois precisam realizar um alocamento de memória compatível com o dado que será guardado. Não há como armazenar um objeto criado a partir de uma classe em uma variável que alocou memória suficiente para um tipo Inteiro. ~Jorge Henrique__
