@@ -182,6 +182,8 @@ Lexema – É uma sequência de caracteres reconhecidos por um padrão.
 
 28) Escreva uma expressão reguar que reconheça números ponto flutuantes: 1.2, 3, 4.50, .03, 0.000032, -0.2, +3.0014
 
+__R: ^[-+]?[0-9]*\.?[0-9]+$
+
 29) Porque estudamos compiladores?
 
 30) Qual a diferença do Scanner e Parser?
@@ -238,6 +240,8 @@ e
 43) HTML e CSS são linguagems (de marcação) declarativas ou imperativas? Explique?
 __R:  ~Rodrigo__
 44) Defina a tabela de símbolos.
+
+__R: Tabela de símbolos é uma estrutura de dados, geralmente uma árvore ou tabela de hash, utilizada em compiladores para o armazenamento de informações de identificadores, tais como constantes, funções, variáveis e tipos de dados. É utilizada em quase todas as fases de compilação, como a varredura, a análise sintática, a análise semântica, otimização e geração de código. Em cada fase ela pode ser utilizada como base para comparações ou mesmo atualizada com novos identificadores durante a saída de cada fase.
 
 45) Qual é a entrada e a saída da fase de análise sintática?
 
