@@ -25,7 +25,7 @@ que transforma as instruções escritas na linguagem assembly para códigos bin�
 
 4) O que é lexema?
 
-__R: O analisador léxico lê um fluxo de caracteres que compõem o programa fonte e os agrupa em seqüências significativas, chamadas lexemas. (Curiosidade: Para cada lexema, o analisador léxico produz como saída um token no formato). ~Raquel Sales__
+__R: Um lexema é uma sequencia de caracteres no programa fonte que casa com o padrão para um token e é identificado pelo analisador léxico como uma instancia desse token. ~ Mateus Moura e Matheus Alberto.__
 
 5) Qual é o autômato finito que representa a expressão regular: [a-zA-Z_0-9] e o que ela está reconhecendo?
 
@@ -193,7 +193,7 @@ __R: SQL é uma linguagem declarativa. Por que você especifica como quer o resu
 25) Quais as duas partes/fases principais de um compilador?
 
 26) Qual a diferença entre tokens, patterns e  lexema.
-__R;Tokens, patterns e lexemas são termos relacionados a implementação de um analisador léxico.
+__RTokens, patterns e lexemas são termos relacionados a implementação de um analisador léxico.
 Token – É um par composto pelo nome do token e um valor de atributo (opcional).  O nome do token é sempre um símbolo abstrato que representa a unidade léxica, por exemplo: Palavras reservadas, números, identificadores e etc.
 Padrão – É a forma que os lexemas de uma cadeia de caracteres podem assumir, por exemplo: o padrão de uma palavra reservada é a sequência de caracteres que fazem parte da formação da palavra; O padrão de um identificador é a sequência de caracteres que fazem parte da formação dos nomes de variáveis e funções.
 Lexema – É uma sequência de caracteres reconhecidos por um padrão.
@@ -284,6 +284,7 @@ __R: A análise sintática (segunda fase de compilação) tem como entrada um co
 46) De exemplos de parsers.
 
 47) Que tipo de linguagem um automato finito reconhece?
+__R: Um automato finito reconhece linguagens que são regulares, ou seja, são descritas por expressões regulares. ~ Mateus Moura e Matheus Alberto.__
 
 48) Quais ferramentas (softwares) podemos utilizar para nos ajudar a criar um compilador? Como elas se integram?
 
