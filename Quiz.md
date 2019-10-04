@@ -215,11 +215,13 @@ __R: Qualquer linguagem pode ser reconhecida. Pois seu conceito é de um computa
 
 32) Com base na figura abaixo, explique o processo de compilação:
 
-
-
-
-
-
+__R: O processo de compilação é definido por 6 etapas, sendo elas:
+Analisador Léxico: Converte a sequência de caracteres do código fonte em tabela de palavras ou tokens(Scanner)
+Analisador Sintático: Converte a sequência de token sem uma arvore (parse tree) de forma hierárquica
+Analisador Semântico: Manipula a arvore para símbolos e tipos
+Gerador de código intermediário: Converte a arvore e uma sequência intermediária de instruções
+Otimizador de código: Manipula o código para otimização
+Gerador de código objeto: Converte o código otimizado para linguagem de máquina (Assembly)
 
 33) Qual a diferença entre erro de sintaxe e erro semântico?
 __R: A diferença entre um erro de sintaxe e um erro semântico é que no erro sintático ele apresenta um erro quando não consegue entender aquela instrução escrita, como por exemplo estar escrito “FORM” ao invés do “FROM” em uma consulta do SQL. Já no erro semântico, se trada de quando compilador não entende o significado daquilo escrito no código.
@@ -265,6 +267,7 @@ __R:  São linguagens de marcação (declarativas), pois nelas o programador for
 __R: Tabela de símbolos é uma estrutura de dados, geralmente uma árvore ou tabela de hash, utilizada em compiladores para o armazenamento de informações de identificadores, tais como constantes, funções, variáveis e tipos de dados. É utilizada em quase todas as fases de compilação, como a varredura, a análise sintática, a análise semântica, otimização e geração de código. Em cada fase ela pode ser utilizada como base para comparações ou mesmo atualizada com novos identificadores durante a saída de cada fase.
 
 45) Qual é a entrada e a saída da fase de análise sintática?
+__R: A análise sintática (segunda fase de compilação) tem como entrada um conjunto de tokens, após a realização da análise léxica (primeira fase de compilação), e tem como saída a árvore de derivação (parser tree)
 
 46) De exemplos de parsers.
 
