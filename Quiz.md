@@ -233,7 +233,7 @@ __R: A diferença entre um erro de sintaxe e um erro semântico é que no erro s
 __R:^(a(?!(b{2}))|b)+$
 
 35) Escreva uma expressão regular que reconheça vogais em letras maiúsculas e consoantes em legras minúsculas
-__R:([AEIOUbcdfghjklmnpqrstvwxyz]) Respondido por Carlos e Caue - 082170042/081170042__
+__R:([AEIOUbcdfghjklmnpqrstvwxyz]) Respondido por Carlos e Caue - 082170042/081170042__ (Revisada por Letícia Jordão e Gabriel Teixeira)
 
 
 36) Exercise 3.3.4 : Most languages are case sensitive, so keywords can be written only one way, and the regular expressions describing their lexemes are very simple. However, some languages, like SQL, are case insensitive, so a keyword can be written either in lowercase or in uppercase, or in any mixture of cases. Thus, the SQL keyword SELECT can also be written select, Select, or sElEcT, for instance. Show how to write a regular expression for a keyword in a case-insensitive language. Illustrate the idea by writing the expression for select in SQL.
@@ -242,7 +242,7 @@ __R: ([A-Za-z])+ Respondido por João Machado e Igor Cruz - 081170036/081170008
  
 37) Qual a diferença entre erro de sintaxe e erro semântico?
 __R: Erros de sintaxe estão resumidos a características não obedecidas há regras na forma lógica em que seus símbolos estão dispostos em uma linguagem e como se comportam, tal como sequência de palavras ou uso de parenteses (abertura e fechamento). 
-Já erros da esfera semântica estão relacionados a problemas de significados na linguagem ao tentar passar a informação desejada, assim como em uma linguagem natural, pode estar gramáticamente correta porém não haver sentido algum, um código pode seguir todas as regras gramaticais da linguagem e possuir instruções sem sentido lógico, como atribuir uma variávelo declarada como string e, ao mesmo tempo ser atribuida a um inteiro. ~ Lucas__
+Já erros da esfera semântica estão relacionados a problemas de significados na linguagem ao tentar passar a informação desejada, assim como em uma linguagem natural, pode estar gramáticamente correta porém não haver sentido algum, um código pode seguir todas as regras gramaticais da linguagem e possuir instruções sem sentido lógico, como atribuir uma variávelo declarada como string e, ao mesmo tempo ser atribuida a um inteiro. ~ Lucas__ 
 
 38) Write a regexp that accepts all strings of digits with no repeated digits. Hint: Try this problem with a few digits, such as {0; 1; 2}.
 __R: ^(?:(?!([0-2])\1).)*$ ~Respondido por Fabio e Matheus Barreto__ __Revisado por Matheus Alberto e Mateus Moura__
@@ -276,9 +276,10 @@ e
 ```html
 </H1>
 ```
+R:[<][/]*[H][1][>] (Letícia Jordão e Gabriel Teixeira) 
 
 43) HTML e CSS são linguagems (de marcação) declarativas ou imperativas? Explique?
-__R:  São linguagens de marcação (declarativas), pois nelas o programador fornece apenas o conjunto das tarefas a serem realizadas, não estando preocupado com os detalhes de como o executor da linguagem realmente implementará essas tarefas. ~Rodrigo__
+__R:  São linguagens de marcação (declarativas), pois nelas o programador fornece apenas o conjunto das tarefas a serem realizadas, não estando preocupado com os detalhes de como o executor da linguagem realmente implementará essas tarefas. ~Rodrigo__ (Revisada por Letícia Jordão e Gabriel Teixeira)
 44) Defina a tabela de símbolos.
 
 __R: Tabela de símbolos é uma estrutura de dados, geralmente uma árvore ou tabela de hash, utilizada em compiladores para o armazenamento de informações de identificadores, tais como constantes, funções, variáveis e tipos de dados. É utilizada em quase todas as fases de compilação, como a varredura, a análise sintática, a análise semântica, otimização e geração de código. Em cada fase ela pode ser utilizada como base para comparações ou mesmo atualizada com novos identificadores durante a saída de cada fase.
@@ -296,6 +297,7 @@ __R: Um automato finito reconhece linguagens que são regulares, ou seja, são d
 49) O que representa o "id" na tabela de símbolos?
 __R: Durante a criação da tabela de símbolos, na fase de análise léxica, todas as variáveis do código, que está sendo compilado, são salvas com o nome de "id", sendo distinguidas a partir de então pela posição em que estão na string (já reduzida para uma string única) do código. Logo, os "id" na tabela de símbolos, são as variáveis do código compilado. ~Filipe__
 50) Quais as linguagens/compiladores criadas por brasileiros?
+R: Elixir, Lua (Letícia Jordão e Gabriel Teixeira)
 
 ### Fase de síntese - back-end
 
