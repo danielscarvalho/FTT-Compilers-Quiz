@@ -22,6 +22,8 @@ Linguagens compiladas: Cobol, Fortran, Java, C# e Pascal.__
 
 __R: Assembly é uma linguagem de programação legível para nós humanos, com maior facilidade de assimilação, desenvolvimento e análise. Assembler é um compilador de programas Assembly, ou seja, ele é um tradutor, um programa ou conjunto de programas que transformará a linguagem de alto nível entendida pelo homem para um linguagem de baixo nível, a linguagem de máquina. O Assembler é o responsável por gerar o arquivo binário a partir do código Assembly. ~ Respondido por Fabio e Matheus Barreto__  __Revisado por Matheus Alberto e Mateus Moura__
 
+__R: Assembly pode ser considerada uma linguagem intermediária, que se aproxima muito a linguagem de baixo nível, isto é, linguagem de máquina. O Assembler gera um código de máquina relocável, a partir do Assembly. Isto é, o Assembler o processo de atribuir endereços de memória para as várias partes do programa e ajustar o código e dados no programa para refletir os endereços atribuídos. (Eduardo Alves - 082170006)
+
 4) O que é lexema?
 
 __R: Um lexema é uma sequencia de caracteres no programa fonte que casa com o padrão para um token e é identificado pelo analisador léxico como uma instancia desse token. ~ Mateus Moura e Matheus Alberto.__  __Revisado por Matheus Barreto e Fabio__
@@ -203,6 +205,8 @@ Lexema – É uma sequência de caracteres reconhecidos por um padrão.
 
 __R: A análise léxica consiste na primeira análise realizada durante o processo de compilação e tem por objetivo identificar os denominados lexemas, e transformá-los em tokens que formarão a tabela de lexemas. Um ponto importante dessa etapa, é que ela se assemelha a um scanner, pois passa por todo o código e "enumera" as variáveis sem se aprofundar em sua aplicação.__
 
+__R: A fase de análise léxica é responsável por scannear ao código, fazendo uma varredura por todo código procurando por algo que não faça parte da biblioteca da linguagem de programação em questão. 
+
 28) Escreva uma expressão reguar que reconheça números ponto flutuantes: 1.2, 3, 4.50, .03, 0.000032, -0.2, +3.0014
 
 __R: ^[-+]?[0-9]*\.?[0-9]+$
@@ -225,6 +229,12 @@ Analisador Semântico: Manipula a arvore para símbolos e tipos
 Gerador de código intermediário: Converte a arvore e uma sequência intermediária de instruções
 Otimizador de código: Manipula o código para otimização
 Gerador de código objeto: Converte o código otimizado para linguagem de máquina (Assembly)
+
+__R: Analisador Léxico: É um scanner que faz a varredura do código, procurando algo que não faça parte da linguagem.
+Analisador Sintático: É responsável por verificar se a sequência de símbolos geram um programa válido ou não.
+Analisador Semântico: É responsável por verificar a estrutura já construída e para ser executada. Verifica inicialização de variáveis.
+Gerador de código intermediário: Gera o primeiro código do programa, na linguagem assembly.
+Otimizador/Gerador de código: Otimiza desempenho e uso de memória e após isso gera um executável final, eficiente para o hardware específico. (Eduardo Alves - 082170006)
 
 33) Qual a diferença entre erro de sintaxe e erro semântico?
 __R: A diferença entre um erro de sintaxe e um erro semântico é que no erro sintático ele apresenta um erro quando não consegue entender aquela instrução escrita, como por exemplo estar escrito “FORM” ao invés do “FROM” em uma consulta do SQL. Já no erro semântico, se trada de quando compilador não entende o significado daquilo escrito no código.
