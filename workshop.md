@@ -1,5 +1,7 @@
 # Temas para o workshop/seminário de compiladores
 
+Seminário invididual: 10 minutos – 6 slides de conteúdo (texto & imagem) – será gravado
+
 1. Explicar diferença entre processadores 64bits e 32bits e bug 2038 (Y2K38)
 2. Explicar o que são e porque os processadores recentes tem multicores e multithreads
 3. Explicar diferença entre JSON e XML
