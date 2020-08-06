@@ -58,4 +58,6 @@ Seminário invididual: 10 minutos – 6 slides de conteúdo (texto & imagem) –
 54. Explicar funcionamento dos vírus e como eles mudam os executáveis
 55. Explicar arquitetura de Harvard
 
+
+-----------------
 Conforme a taxonomia de Bloom, esta atividade trabalha os níveis cognitivos: criar, lembrar e compreender
