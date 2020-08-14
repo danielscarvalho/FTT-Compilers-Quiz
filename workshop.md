@@ -57,6 +57,7 @@ Seminário invididual: 10 minutos – 6 slides de conteúdo (texto & imagem) –
 53. Explicar engenharia reversa de programas compilados
 54. Explicar funcionamento dos vírus e como eles mudam os executáveis
 55. Explicar arquitetura de Harvard
+56. Explicar Common Intermediate Language do C#
 
 
 -----------------
