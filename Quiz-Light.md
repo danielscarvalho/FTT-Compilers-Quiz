@@ -17,4 +17,6 @@
 14. Qual a diferença entre linguagem de programação e linguagem natural?
 15. Descreva expressões regulares e de exemplos.
 16. Quais são as fases de compilação, explique.
-17. 
+17. Qual a diferença entre a gramática regular e livre de contexto?
+18. O que é a máquina de turing
+19. 
