@@ -20,3 +20,5 @@
 17. Qual a diferença entre a gramática regular e livre de contexto?
 18. O que é a máquina de turing
 19. 
+
+Respostas no livro do "Dragão"
