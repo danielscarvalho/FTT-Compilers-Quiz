@@ -21,4 +21,4 @@
 18. O que é a máquina de turing
 19. 
 
-Respostas no livro do "Dragão"
+Respostas no livro do "Dragão" - disponível da biblioteca virtual
