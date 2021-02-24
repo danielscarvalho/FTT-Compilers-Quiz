@@ -1,4 +1,4 @@
-# Quiz compiladores 2020 1:
+# Quiz compiladores 2021 1:
 ## Front-End
 
 1. Explique as fases do processo de compilação.
