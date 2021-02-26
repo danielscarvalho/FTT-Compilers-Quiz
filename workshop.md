@@ -33,31 +33,32 @@ Seminário invididual: 10 minutos – 6 slides de conteúdo (texto & imagem) –
 29. Otimizador de código
 30. Explicar funções do Kernel e semáforos
 31. Explicar gerador de Código Objeto
-32. Explicar Hierarquia de Chomsky
-33. Explicar o que é programa objeto
-34. Explicar autômatos com peso e autômatos probabilísticos
-35. Explicar o gerador de código intermediário
-36. Explicar armazenamento em cache
-37. Explicar Lei de Moore
-38. Explicar linguagem Lua criada pela PUC-RJ
-39. Explicar linguagem Elixir (criada por Brasileiros)
-40. Explicar relação entre JavaScript, HTML5 e CSS3
-41. Explicar look ahead
-42. Explicar linguagem SmalTalk com exemplo de código
-43. Explicar linguagem Lisp com exemplo de código
-44. Explicar linguagem Prolog com exemplo de código
-45. Explicar linguagem Fortran com exemplo de código
-46. Explicar criação de compilador (análise) com FLEX e YACC
-47. Explicar gramática e linguagens formais
-48. Explicar montador (compilador)
-49. Explicar microcontroladores e como programá-los e compilar
-50. Explicar VLSI
-51. Explicar compilação com LLVM
-52. Explicar parser do browser WEB (HTML, CSS, JavaScript)
-53. Explicar engenharia reversa de programas compilados
-54. Explicar funcionamento dos vírus e como eles mudam os executáveis
-55. Explicar arquitetura de Harvard
-56. Explicar Common Intermediate Language do C#
+32. Porque os strings em Java são imutáveis
+33. Explicar Hierarquia de Chomsky
+34. Explicar o que é programa objeto
+35. Explicar autômatos com peso e autômatos probabilísticos
+36. Explicar o gerador de código intermediário
+37. Explicar armazenamento em cache
+38. Explicar Lei de Moore
+39. Explicar linguagem Lua criada pela PUC-RJ
+40. Explicar linguagem Elixir (criada por Brasileiros)
+41. Explicar relação entre JavaScript, HTML5 e CSS3
+42. Explicar look ahead
+43. Explicar linguagem SmalTalk com exemplo de código
+44. Explicar linguagem Lisp com exemplo de código
+45. Explicar linguagem Prolog com exemplo de código
+46. Explicar linguagem Fortran com exemplo de código
+47. Explicar criação de compilador (análise) com FLEX e YACC
+48. Explicar gramática e linguagens formais
+49. Explicar montador (compilador)
+50. Explicar microcontroladores e como programá-los e compilar
+51. Explicar VLSI
+52. Explicar compilação com LLVM
+53. Explicar parser do browser WEB (HTML, CSS, JavaScript)
+54. Explicar engenharia reversa de programas compilados
+55. Explicar funcionamento dos vírus e como eles mudam os executáveis
+56. Explicar arquitetura de Harvard
+57. Explicar Common Intermediate Language do C#
 
 
 -----------------
