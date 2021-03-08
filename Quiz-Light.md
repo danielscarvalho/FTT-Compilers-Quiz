@@ -19,6 +19,8 @@
 16. Quais são as fases de compilação, explique.
 17. Qual a diferença entre a gramática regular e livre de contexto?
 18. O que é a máquina de turing
-19. 
+19. O que é uma linguagem livre de contexto
+20. Como é feita a definição formal de uma linguagem?
+21. Explique Backus–Naur e Backus normal
 
 Respostas no livro do "Dragão" - disponível da biblioteca virtual
