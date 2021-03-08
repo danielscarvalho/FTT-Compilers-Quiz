@@ -59,7 +59,7 @@ Seminário invididual: 10 minutos – 6 slides de conteúdo (texto & imagem) –
 55. Explicar funcionamento dos vírus e como eles mudam os executáveis
 56. Explicar arquitetura de Harvard
 57. Explicar Common Intermediate Language do C#
-58. Porque o tipo string é imutável no Java?
+58. Explicar Backus–Naur e Backus normal
 
 
 -----------------
