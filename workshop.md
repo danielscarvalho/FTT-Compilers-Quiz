@@ -60,6 +60,8 @@ Seminário invididual: 10 minutos – 6 slides de conteúdo (texto & imagem) –
 56. Explicar arquitetura de Harvard
 57. Explicar Common Intermediate Language do C#
 58. Explicar Backus–Naur e Backus normal
+59. Explicar a família de processadores 64 bits da AMD
+60. Explicar IPC no sistema operacional (Linux)
 
 
 -----------------
