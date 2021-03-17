@@ -64,6 +64,7 @@ Seminário invididual: 10 minutos – 6 slides de conteúdo (texto & imagem) –
 60. Explicar IPC no sistema operacional (Linux)
 61. Explicar o compilador JIT (Just in time compiler)
 62. Explicar Javascript single threaded
+63. Explicar Proxy, Proxy reverso e o cache do Browser
 
 
 -----------------
