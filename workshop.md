@@ -65,6 +65,8 @@ Seminário invididual: 10 minutos – 6 slides de conteúdo (texto & imagem) –
 61. Explicar o compilador JIT (Just in time compiler)
 62. Explicar Javascript single threaded
 63. Explicar Proxy, Proxy reverso e o cache do Browser
+64. Explicar a DMA (Direct Memory Access)
+65. Explicar o barramento de dados, endereço e controle
 
 
 -----------------
