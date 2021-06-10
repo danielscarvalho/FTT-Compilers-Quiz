@@ -20,7 +20,7 @@ Tópicos relacionados com compiladores, linguagens, teoria da computação e arq
 14. Explicar máquina de Turing e o Turing test
 15. Explicar o funcionamento de um programa em assembly (código)
 16. Explicar L-Systems
-17. Explicar e mostrar exemplo de um “tradutor” (TypeScript >> JavaScript, SASS >> CSS, Pascal >> C, etc...)
+17. Explicar e mostrar exemplo de um “tradutor” (TypeScript » JavaScript, SASS » CSS, Pascal » C, etc...)
 18. Explicar parsing com exemplos e aplicações
 19. Explicar NPC (Non-player character) e como ele se comunica com o jogador
 20. Explicar e mostrar exemplo de NLP (Natural Language Processing)
@@ -77,7 +77,7 @@ Tópicos relacionados com compiladores, linguagens, teoria da computação e arq
 71. Explicar como funciona o Wolfram|Alpha
 72. Explicar como funciona a ferramenta de busca do Google e Bing
 73. Explicar como construir um chatbot dar exemplos
-74. Explicar como funciona um tradutor de idiomas, exemplo PT -> EN, EN -> ES, FR -> EN, etc...
+74. Explicar como funciona um tradutor de idiomas, exemplo PT ➜ EN, EN ➜ ES, FR ➜ EN, etc...
 75. Explicar as linguagens interlingua e esperanto
 76. Explicar text-to-speech vice-versa
 77. Compilação/tradução dirigida pela sintaxe
