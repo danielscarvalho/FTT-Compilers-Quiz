@@ -74,5 +74,6 @@ Seminário invididual: 10 minutos – 6 slides de conteúdo (texto & imagem) –
 70. Explicar como funcioan os asistentes virtuais (Cortana, Alexa, Google Assistent)
 71. Explicar como funciona o Wolfram|Alpha
 72. Explicar como funciona a ferramenta de busca do Google e Bing
+73. Explicar como construir um chatbot dar exemplos
 
 Conforme a taxonomia de Bloom, esta atividade trabalha os níveis cognitivos: criar, lembrar e compreender
