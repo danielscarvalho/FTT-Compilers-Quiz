@@ -8,7 +8,7 @@ Seminário invididual: 10 minutos – 6 slides de conteúdo (texto & imagem) –
 4. Explicar linguagem Erlang com exemplo de código
 5. Explicar compilador e link editor C com exemplos
 6. Explicar com exemplos expressões regulares
-7. Explicar com exemplos autômatos finito
+7. Explicar com exemplos autômatos finito e autômatos com pilha
 8. Explicar com exemplos linguagens interpretadas
 9. Explicar com exemplos linguagens compiladas
 10. Explicar com exemplos linguagens com máquina virtual
@@ -19,55 +19,57 @@ Seminário invididual: 10 minutos – 6 slides de conteúdo (texto & imagem) –
 15. Explicar o funcionamento de um programa em assembly (código)
 16. Explicar L-Systems
 17. Explicar e mostrar exemplo de um “tradutor”
-18. Explicar parsing com exemplo
-19. Explicar e mostrar exemplo de NLP
-20. Explicar e mostrar tipos de erros de compilação e suas causas
-21. Explicar e demonstrar exemplos de GPU
-22. Explicar a máquina Enigma e como foi decifrada (vide Alan Turing)
-23. Explicar processadores Xion e a diferença entre i5, i7, i9 e a fins
-24. Explicar shell script (Bash)
-25. Como é feito um compilador?
-26. Tipos de compiladores
-27. Programação assíncrona
-28. Diferença entre linguagem interpretada e compilada
-29. Otimizador de código
-30. Explicar funções do Kernel e semáforos
-31. Explicar gerador de Código Objeto
-32. Porque os strings em Java são imutáveis
-33. Explicar Hierarquia de Chomsky
-34. Explicar o que é programa objeto
-35. Explicar autômatos com peso e autômatos probabilísticos
-36. Explicar o gerador de código intermediário
-37. Explicar armazenamento em cache
-38. Explicar Lei de Moore
-39. Explicar linguagem Lua criada pela PUC-RJ
-40. Explicar linguagem Elixir (criada por Brasileiros)
-41. Explicar relação entre JavaScript, HTML5 e CSS3
-42. Explicar look ahead
-43. Explicar linguagem SmalTalk com exemplo de código
-44. Explicar linguagem Lisp com exemplo de código
-45. Explicar linguagem Prolog com exemplo de código
-46. Explicar linguagem Fortran com exemplo de código
-47. Explicar criação de compilador (análise) com FLEX e YACC
-48. Explicar gramática e linguagens formais
-49. Explicar montador (compilador)
-50. Explicar microcontroladores e como programá-los e compilar
-51. Explicar VLSI
-52. Explicar compilação com LLVM
-53. Explicar parser do browser WEB (HTML, CSS, JavaScript)
-54. Explicar engenharia reversa de programas compilados
-55. Explicar funcionamento dos vírus e como eles mudam os executáveis
-56. Explicar arquitetura de Harvard
-57. Explicar Common Intermediate Language do C#
-58. Explicar Backus–Naur e Backus normal
-59. Explicar a família de processadores 64 bits da AMD
-60. Explicar IPC no sistema operacional (Linux)
-61. Explicar o compilador JIT (Just in time compiler)
-62. Explicar Javascript single threaded
-63. Explicar Proxy, Proxy reverso e o cache do Browser
-64. Explicar a DMA (Direct Memory Access)
-65. Explicar o barramento de dados, endereço e controle
+18. Explicar parsing com exemplos
+19. Explicar NPC (Non-player character) e como ele se comunica com o jogoador
+20. Explicar e mostrar exemplo de NLP (Natural Language Processing)
+21. Explicar e mostrar tipos de erros de compilação e suas causas
+22. Explicar e demonstrar exemplos de GPU (Graphic Processing Unit)
+23. Explicar a máquina Enigma e como foi decifrada (vide Alan Turing)
+24. Explicar processadores Xion e a diferença entre i5, i7, i9 e a fins
+25. Explicar shell script (Bash)
+26. Como é feito um compilador?
+27. Tipos de compiladores
+28. Programação assíncrona
+29. Diferença entre linguagem interpretada e compilada
+30. Otimizador de código
+31. Explicar funções do Kernel e semáforos
+32. Explicar gerador de Código Objeto
+33. Porque os strings em Java são imutáveis
+34. Explicar Hierarquia de Chomsky
+35. Explicar o que é programa objeto
+36. Explicar autômatos com peso e autômatos probabilísticos
+37. Explicar autômatos celulares com exemplos
+38. Explicar o gerador de código intermediário
+39. Explicar armazenamento em cache e como funciona RAID
+40. Explicar Lei de Moore
+41. Explicar linguagem Lua criada pela PUC-RJ
+42. Explicar linguagem Elixir (criada por brasileiro)
+43. Explicar relação entre JavaScript, HTML5 e CSS3
+44. Explicar look ahead
+45. Explicar linguagem SmalTalk com exemplo de código
+46. Explicar linguagem Lisp com exemplo de código
+47. Explicar linguagem Prolog com exemplo de código
+48. Explicar linguagem Fortran com exemplo de código
+49. Explicar criação de compilador (análise) com FLEX e YACC
+50. Explicar gramática e linguagens formais
+51. Explicar montador (compilador)
+52. Explicar microcontroladores e como programá-los e compilar
+53. Explicar VLSI
+54. Explicar compilação com LLVM
+55. Explicar parser do browser WEB (HTML, CSS, JavaScript)
+56. Explicar engenharia reversa de programas compilados
+57. Explicar funcionamento dos vírus e como eles mudam os executáveis
+58. Explicar arquitetura de Harvard
+59. Explicar Common Intermediate Language do C#
+60. Explicar Backus–Naur e Backus normal
+61. Explicar a família de processadores 64 bits da AMD
+62. Explicar IPC no sistema operacional (Linux)
+63. Explicar o compilador JIT (Just in time compiler)
+64. Explicar Javascript single threaded
+65. Explicar Proxy, Proxy reverso e o cache do Browser
+66. Explicar a DMA (Direct Memory Access)
+67. Explicar o barramento de dados, endereço e controle
+68. Explicar linguagem ADA com exemplo de código
+69. Explicar a arquitetura e funcionamento da placa mãe
 
-
------------------
 Conforme a taxonomia de Bloom, esta atividade trabalha os níveis cognitivos: criar, lembrar e compreender
