@@ -20,8 +20,8 @@ Tópicos relacionados com compiladores, linguagens, teoria da computação e arq
 14. Explicar máquina de Turing e o Turing test
 15. Explicar o funcionamento de um programa em assembly (código)
 16. Explicar L-Systems
-17. Explicar e mostrar exemplo de um “tradutor”
-18. Explicar parsing com exemplosmontador
+17. Explicar e mostrar exemplo de um “tradutor” (TypeScript >> JavaScript, SASS >> CSS, Pascal >> C, etc...)
+18. Explicar parsing com exemplos e aplicações
 19. Explicar NPC (Non-player character) e como ele se comunica com o jogador
 20. Explicar e mostrar exemplo de NLP (Natural Language Processing)
 21. Explicar e mostrar tipos de erros de compilação e suas causas
@@ -81,6 +81,7 @@ Tópicos relacionados com compiladores, linguagens, teoria da computação e arq
 75. Explicar as linguagens interlingua e esperanto
 76. Explicar text-to-speech vice-versa
 77. Compilação/tradução dirigida pela sintaxe
+78. Explicar a linguagem SQL e suas implementações (ISO)
 
 
 Conforme a taxonomia de Bloom, esta atividade trabalha os níveis cognitivos: criar, lembrar e compreender
