@@ -85,7 +85,7 @@ Tópicos relacionados com compiladores, linguagens, teoria da computação e arq
 79. Explicar metadados com exemplos
 80. Explicar linguagem COBOL com exemplo de código
 81. Explicar super computador e mainframe, qual a diferença entre eles?
-82. Explicar como são fabricados os chips e a crise da falta de chips (*global shortage in computer chips crisis*)
+82. Explicar como são fabricados os chips (semi condutores) e a crise da falta de chips (*global shortage in computer chips crisis*)
 83. Explicar blockchain (Bitcoin, Ethereum, Lightcoin, Dogecoin) e como minerar criptomoedas
 84. Explicar *smart contracts* no Ethereum
 85. Explicar NTFs (Non-fungible token)
