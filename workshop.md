@@ -75,7 +75,7 @@ Seminário invididual: 10 minutos – 6 slides de conteúdo (texto & imagem) –
 71. Explicar como funciona o Wolfram|Alpha
 72. Explicar como funciona a ferramenta de busca do Google e Bing
 73. Explicar como construir um chatbot dar exemplos
-74. Explicar como funciona um tradutor de idiomas, exemplo PT -> EN, EN -> SP, FR -> EN, etc...
+74. Explicar como funciona um tradutor de idiomas, exemplo PT -> EN, EN -> ES, FR -> EN, etc...
 75. Explicar as linguagens interlingua e esperanto
 76. Explicar text-to-speech vice-versa
 
