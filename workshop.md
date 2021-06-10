@@ -89,6 +89,7 @@ Tópicos relacionados com compiladores, linguagens, teoria da computação e arq
 83. Explicar blockchain (Bitcoin, Ethereum, Lightcoin, Dogecoin) e como minerar criptomoedas
 84. Explicar *smart contracts* no Ethereum
 85. Explicar NTFs (Non-fungible token)
+86. Explicar o Boeing 737 max bug
 
 
 
