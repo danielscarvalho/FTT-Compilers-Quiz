@@ -32,7 +32,7 @@ Tópicos relacionados com compiladores, linguagens, teoria da computação e arq
 26. Como podemos fazer o front-end e back-end do compilador de forma automatizada?
 27. Tipos de compiladores
 28. Programação assíncrona
-29. Diferença entre linguagem interpretada e compilada
+29. Exemplos e diferença (comparação) entre linguagem interpretadas e compiladas
 30. Otimizador de código
 31. Explicar funções do Kernel e semáforos do Linux/Unix
 32. Explicar gerador de Código Objeto
