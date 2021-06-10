@@ -73,7 +73,7 @@ Tópicos relacionados com compiladores, linguagens, teoria da computação e arq
 67. Explicar o barramento de dados, endereço e controle
 68. Explicar linguagem ADA com exemplo de código
 69. Explicar a arquitetura e funcionamento da placa mãe
-70. Explicar como funcionam os asistentes virtuais (Siri, Cortana, Alexa, Google Assistant)
+70. Explicar como funcionam os assistentes virtuais (Siri, Cortana, Alexa, Google Assistant)
 71. Explicar como funciona o Wolfram|Alpha
 72. Explicar como funciona a ferramenta de busca do Google e Bing
 73. Explicar como construir um chatbot dar exemplos
