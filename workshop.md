@@ -19,7 +19,7 @@ Seminário invididual: 10 minutos – 6 slides de conteúdo (texto & imagem) –
 15. Explicar o funcionamento de um programa em assembly (código)
 16. Explicar L-Systems
 17. Explicar e mostrar exemplo de um “tradutor”
-18. Explicar parsing com exemplos
+18. Explicar parsing com exemplosmontador
 19. Explicar NPC (Non-player character) e como ele se comunica com o jogador
 20. Explicar e mostrar exemplo de NLP (Natural Language Processing)
 21. Explicar e mostrar tipos de erros de compilação e suas causas
@@ -52,7 +52,7 @@ Seminário invididual: 10 minutos – 6 slides de conteúdo (texto & imagem) –
 48. Explicar linguagem Fortran com exemplo de código
 49. Explicar criação de compilador (análise) com FLEX e YACC
 50. Explicar gramática e linguagens formais
-51. Explicar montador (compilador)
+51. Explicar montador (compilador) e NASM
 52. Explicar microcontroladores e como programá-los e compilar
 53. Explicar VLSI (Very Large Scale Integration)
 54. Explicar compilação com LLVM
