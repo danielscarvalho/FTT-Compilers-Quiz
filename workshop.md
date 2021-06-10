@@ -71,7 +71,7 @@ Seminário invididual: 10 minutos – 6 slides de conteúdo (texto & imagem) –
 67. Explicar o barramento de dados, endereço e controle
 68. Explicar linguagem ADA com exemplo de código
 69. Explicar a arquitetura e funcionamento da placa mãe
-70. Explicar como funcioan os asistentes virtuais (Cortana, Alexa, Google Assistent)
+70. Explicar como funciona os asistentes virtuais (Siri, Cortana, Alexa, Google Assistent)
 71. Explicar como funciona o Wolfram|Alpha
 72. Explicar como funciona a ferramenta de busca do Google e Bing
 73. Explicar como construir um chatbot dar exemplos
