@@ -20,7 +20,7 @@ Seminário invididual: 10 minutos – 6 slides de conteúdo (texto & imagem) –
 16. Explicar L-Systems
 17. Explicar e mostrar exemplo de um “tradutor”
 18. Explicar parsing com exemplos
-19. Explicar NPC (Non-player character) e como ele se comunica com o jogoador
+19. Explicar NPC (Non-player character) e como ele se comunica com o jogador
 20. Explicar e mostrar exemplo de NLP (Natural Language Processing)
 21. Explicar e mostrar tipos de erros de compilação e suas causas
 22. Explicar e demonstrar exemplos de GPU (Graphic Processing Unit)
