@@ -82,6 +82,7 @@ Tópicos relacionados com compiladores, linguagens, teoria da computação e arq
 76. Explicar text-to-speech vice-versa
 77. Compilação/tradução dirigida pela sintaxe
 78. Explicar a linguagem SQL e suas implementações (ISO)
+79. Explicar metadados com exemplos
 
 
 Conforme a taxonomia de Bloom, esta atividade trabalha os níveis cognitivos: criar, lembrar e compreender
