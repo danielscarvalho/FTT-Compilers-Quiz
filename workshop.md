@@ -83,6 +83,9 @@ Tópicos relacionados com compiladores, linguagens, teoria da computação e arq
 77. Compilação/tradução dirigida pela sintaxe
 78. Explicar a linguagem SQL e suas implementações (ISO)
 79. Explicar metadados com exemplos
+80. Explicar linguagem COBOL com exemplo de código
+81. Explicar super computador e mainframe, qual a diferença entre eles?
+
 
 
 Conforme a taxonomia de Bloom, esta atividade trabalha os níveis cognitivos: criar, lembrar e compreender
