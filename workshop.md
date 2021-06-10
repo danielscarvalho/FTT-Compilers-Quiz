@@ -42,7 +42,7 @@ Tópicos relacionados com compiladores, linguagens, teoria da computação e arq
 36. Explicar autômatos com peso e autômatos probabilísticos
 37. Explicar autômatos celulares com exemplos
 38. Explicar o gerador de código intermediário
-39. Explicar armazenamento em cache e como funciona RAID, fiber chennel e storage
+39. Explicar armazenamento em cache e como funciona RAID, fiber channel e storage
 40. Explicar Lei de Moore
 41. Explicar linguagem Lua criada pela PUC-RJ
 42. Explicar linguagem Elixir (criada por brasileiro)
