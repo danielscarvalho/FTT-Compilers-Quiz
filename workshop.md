@@ -23,16 +23,16 @@ Seminário invididual: 10 minutos – 6 slides de conteúdo (texto & imagem) –
 19. Explicar NPC (Non-player character) e como ele se comunica com o jogador
 20. Explicar e mostrar exemplo de NLP (Natural Language Processing)
 21. Explicar e mostrar tipos de erros de compilação e suas causas
-22. Explicar e demonstrar exemplos de GPU (Graphic Processing Unit)
+22. Explicar e demonstrar exemplos de GPU (Graphic Processing Unit), CUDA, placas GeForce e NVIDIA Tesla
 23. Explicar a máquina Enigma e como foi decifrada (vide Alan Turing)
 24. Explicar processadores Xion e a diferença entre i5, i7, i9 e a fins
 25. Explicar shell script (Bash)
-26. Como é feito um compilador?
+26. Como podemos fazer o front-end e back-end do compilador de forma automatizada?
 27. Tipos de compiladores
 28. Programação assíncrona
 29. Diferença entre linguagem interpretada e compilada
 30. Otimizador de código
-31. Explicar funções do Kernel e semáforos
+31. Explicar funções do Kernel e semáforos do Linux/Unix
 32. Explicar gerador de Código Objeto
 33. Porque os strings em Java são imutáveis
 34. Explicar Hierarquia de Chomsky
@@ -40,7 +40,7 @@ Seminário invididual: 10 minutos – 6 slides de conteúdo (texto & imagem) –
 36. Explicar autômatos com peso e autômatos probabilísticos
 37. Explicar autômatos celulares com exemplos
 38. Explicar o gerador de código intermediário
-39. Explicar armazenamento em cache e como funciona RAID
+39. Explicar armazenamento em cache e como funciona RAID, fiber chennel e storage
 40. Explicar Lei de Moore
 41. Explicar linguagem Lua criada pela PUC-RJ
 42. Explicar linguagem Elixir (criada por brasileiro)
@@ -54,7 +54,7 @@ Seminário invididual: 10 minutos – 6 slides de conteúdo (texto & imagem) –
 50. Explicar gramática e linguagens formais
 51. Explicar montador (compilador)
 52. Explicar microcontroladores e como programá-los e compilar
-53. Explicar VLSI
+53. Explicar VLSI (Very Large Scale Integration)
 54. Explicar compilação com LLVM
 55. Explicar parser do browser WEB (HTML, CSS, JavaScript)
 56. Explicar engenharia reversa de programas compilados
@@ -65,13 +65,13 @@ Seminário invididual: 10 minutos – 6 slides de conteúdo (texto & imagem) –
 61. Explicar a família de processadores 64 bits da AMD
 62. Explicar IPC no sistema operacional (Linux)
 63. Explicar o compilador JIT (Just in time compiler)
-64. Explicar Javascript single threaded
+64. Explicar JavaScript single threaded
 65. Explicar Proxy, Proxy reverso e o cache do Browser
 66. Explicar a DMA (Direct Memory Access)
 67. Explicar o barramento de dados, endereço e controle
 68. Explicar linguagem ADA com exemplo de código
 69. Explicar a arquitetura e funcionamento da placa mãe
-70. Explicar como funcionam os asistentes virtuais (Siri, Cortana, Alexa, Google Assistent)
+70. Explicar como funcionam os asistentes virtuais (Siri, Cortana, Alexa, Google Assistant)
 71. Explicar como funciona o Wolfram|Alpha
 72. Explicar como funciona a ferramenta de busca do Google e Bing
 73. Explicar como construir um chatbot dar exemplos
