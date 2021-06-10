@@ -77,5 +77,7 @@ Seminário invididual: 10 minutos – 6 slides de conteúdo (texto & imagem) –
 73. Explicar como construir um chatbot dar exemplos
 74. Explicar como funciona um tradutor de idiomas, exemplo PT -> EN, EN -> SP, FR -> EN, etc...
 75. Explicar as linguagens interlingua e esperanto
+76. Explicar text-to-speech vice-versa
+
 
 Conforme a taxonomia de Bloom, esta atividade trabalha os níveis cognitivos: criar, lembrar e compreender
