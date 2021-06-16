@@ -6,9 +6,10 @@
 4. Criar um parser para a linguagem Pascal
 5. Criar um processador de "máquina de Turing", ler um arquivo texto com a descrição da gramática e gerar um arquivo texto de saída passo-a-passo com o processamento
 6. Verificar se os "pareteses" estão corretos (aberto, fechado, não encavalado) em um código fonte - Balanced Parentheses:
-     ({()})
-     [(])()
-     [(<{})]
-     ([](){}({[]}))
-5. L-Systems (análise e síntese): Ler um arquivo com gramática L-Systems, processar as regras de produção e gerar saída 2D em SVG ou 3D em X3D (Em arquivo .html) 
-6. Fibonacci: Implementar em assembly um programa para gerar os números de fibonacci 
+     - ({()})
+     - [(])()
+     - [(<{})]
+     - ([](){}({[]}))
+5. Processar arquivos de dados com datas em formatos distintos (parser)
+6. L-Systems (análise e síntese): Ler um arquivo com gramática L-Systems, processar as regras de produção e gerar saída 2D em SVG ou 3D em X3D (Em arquivo .html) 
+7. Fibonacci: Implementar em assembly um programa para gerar os números de fibonacci 
