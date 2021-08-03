@@ -12,4 +12,6 @@
      - ([](){}({[]}))
 5. Processar arquivos de dados com datas em formatos distintos (parser)
 6. L-Systems (análise e síntese): Ler um arquivo com gramática L-Systems, processar as regras de produção e gerar saída 2D em SVG ou 3D em X3D (Em arquivo .html) 
-7. Fibonacci: Implementar em assembly um programa para gerar os números de fibonacci 
+7. Fibonacci: Implementar em assembly um programa para gerar os números (sequencia) de fibonacci
+8. Criar um programa para ler arquivo em markdown (parse) e gerar HTML, PDF, RFT, etc...
+9. Criar um programa para ler um livro em TXT ou PDF (parser) e gerar uma versão em HTML, MARKDOWN, EPUB, RTF, etc...
