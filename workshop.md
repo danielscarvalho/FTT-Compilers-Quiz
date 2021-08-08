@@ -76,7 +76,7 @@ Tópicos relacionados com compiladores, linguagens, teoria da computação e arq
 70. Explicar como funcionam os assistentes virtuais (Siri, Cortana, Alexa, Google Assistant)
 71. Explicar como funciona o Wolfram|Alpha
 72. Explicar como funciona a ferramenta de busca do Google e Bing
-73. Explicar como construir um chatbot dar exemplos
+73. Explicar como construir um chatbot e citar exemplos
 74. Explicar como funciona um tradutor de idiomas, exemplo PT ➜ EN, EN ➜ ES, FR ➜ EN, etc...
 75. Explicar as linguagens interlingua e esperanto
 76. Explicar text-to-speech vice-versa
@@ -91,6 +91,7 @@ Tópicos relacionados com compiladores, linguagens, teoria da computação e arq
 85. Explicar NTFs (Non-fungible token)
 86. Explicar o Boeing 737 max bug
 87. Explicar a tabela de caracteres EBCDIC, ASCII, ISO-8859-1, Latin1, UNICODE, UTF-8, UTF-16, UTF-32 e os Emojis
+88. Explicar NPC (Non Player Character) e como implementar um
 
 
 
