@@ -17,3 +17,4 @@
 9. Criar um programa para ler um livro em TXT ou PDF (parser) e gerar uma versão em HTML, MARKDOWN, EPUB, RTF, DOC (DOCX) etc...
 10. Criar um _full-text search engine_
 11. Criar um corretor ortográfico
+12. Criar ferramenta para montar o ídice de um livro digital (texto)
