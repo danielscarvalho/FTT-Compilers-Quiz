@@ -18,3 +18,5 @@
 10. Criar um _full-text search engine_
 11. Criar um corretor ortográfico
 12. Criar ferramenta para montar o ídice de um livro digital (texto)
+13. Criar um _chat bot_
+14. Criar um NPC (Non-player character)
