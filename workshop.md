@@ -92,6 +92,7 @@ Tópicos relacionados com compiladores, linguagens, teoria da computação e arq
 86. Explicar o Boeing 737 max bug
 87. Explicar a tabela de caracteres EBCDIC, ASCII, ISO-8859-1, Latin1, UNICODE, UTF-8, UTF-16, UTF-32 e os Emojis
 88. Explicar NPC (Non-player Character) e como implementar um
+89. Explicar como o ANTLR (ANother Tool for Language Recognition) funciona
 
 
 
