@@ -93,7 +93,7 @@ Tópicos relacionados com compiladores, linguagens, teoria da computação e arq
 87. Explicar a tabela de caracteres EBCDIC, ASCII, ISO-8859-1, Latin1, UNICODE, UTF-8, UTF-16, UTF-32 e os Emojis
 88. Explicar NPC (Non-player Character) e como implementar um
 89. Explicar como o ANTLR (ANother Tool for Language Recognition) funciona
-90. Explicar o _Bison  is  a parser generator_
+90. Explicar o _Bison parser generator_
 
 
 
