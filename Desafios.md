@@ -20,3 +20,4 @@
 12. Criar ferramenta para montar o ídice de um livro digital (texto)
 13. Criar um _chat bot_
 14. Criar um NPC (Non-player character)
+15. Criar um tradutor de Latex
